@@ -1,2 +1,115 @@
-test
-test
+##########GLOBAL CONFIG##########
+maxgputemp 80
+autoreboot 3
+custompanel derkutderkut
+
+
+##########MINERS##########
+#ethminer, sgminer-gm, claymore, claymore-zcash, optiminer-zcash, sgminer-gm-xmr, cgminer-skein, ewbf-zcash, ccminer
+
+
+
+##########CLAYMORE ETH ETHERMINE##########
+claymore=proxypool1 eu1.ethermine.org:4444                                               
+claymore=proxypool2 eu2.ethermine.org:4444
+claymore=proxywallet 0x22d20D0D56F7524441D86680d7a999C5966A8383
+claymore=poolpass1 x
+claymore=poolpass2 x
+
+
+##########CLAYMORE ETH NANOPOOL##########
+claymore=proxypool1 eth-eu1.nanopool.org:9999                                              
+claymore=proxypool2 eth-eu2.nanopool.org:9999 
+claymore=proxywallet 0x22d20D0D56F7524441D86680d7a999C5966A8383
+claymore=poolpass1 x
+claymore=poolpass2 x
+
+
+
+
+
+##########EWBF ZEK##########
+ewbf-zcash=proxypool1 eu1-zcash.flypool.org:3333
+ewbf-zcash=proxypool2 eu2-zcash.flypool.org:3333
+ewbf-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
+ewbf-zcash=poolpass1 z
+ewbf-zcash=poolpass2 z
+
+
+
+
+
+
+###############################
+##########RIGS CONFIG##########
+###############################
+
+##########RIG027(246.5)##########
+loc c8c3e6 27a5804g
+cor c8c3e6 1250 1250 1250 1250 1250 1250 1250 1250
+mem c8c3e6 2150 2150 2150 2150 2150 2150 2150 2150
+fan c8c3e6 34 34 34 34 34 34 34 34
+pwr c8c3e6 5 5 5 5 5 5 5 5
+miner c8c3e6 claymore
+flg c8c3e6 --cl-global-work 8192 --farm-recheck 200
+
+##########RIG042()##########
+loc xxxxxx 42a5604g
+cor xxxxxx 1100 1100 1100 1100 1100 1100 1100 1100
+mem xxxxxx 2000 2000 2000 2000 2000 2000 2000 2000
+fan xxxxxx 65 65 65 65 65 65 65 65
+pwr xxxxxx 5 5 5 5 5 5 5 5
+miner xxxxxx claymore
+flg xxxxxx --cl-global-work 8192 --farm-recheck 200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# EXPLANATION OF SETTINGS THAT APPLY TO ALL RIGS
+# If using "pool" parameter, write WORKER (a placeholder variable) in place of rig name (i.e. NOT rig1, myrig, home, warehouse2, etc).
+#
+# globalminer:		set global miner (ethminer, sgminer-gm, claymore, claymore-zcash, optiminer-zcash, sgminer-gm-xmr, cgminer-skein, ewbf-zcash, ccminer)  
+# 			NOTE: ewbf-zcash (zcash) and ccminer (xmr, and others) is for nvidia; for ccminer flags, see http://ethosdistro.com/ccminer.txt )
+# maxgputemp:           the temperature in C that your GPUs will trigger the miner to turn off
+# stratumproxy:         enabled/disabled/miner/nicehash (enabled by default; disabled: pool option, nicehash: nicehash support, miner: internal miner proxy)
+# flags:                set desired flags here, the defaults are known good working
+# autoreboot:           set to a number (autoreboot 3), allow rigs to autoreboot if they soft crash (max of 3 reboots, run clear-thermals to reset counter)
+# custompanel:          set ethosdistro.com panel ID, exactly 12 characters, first 6 is your preferred panel ID, last 6 is your private key
+#
+# PER-RIG STYLE CONFIG SETTINGS THAT APPLY TO INDIVIDUAL RIGS (AND THEIR RESPECTIVE INDIVIDUAL GPUS)
+# NOTICE: c94e13 is a SAMPLE rig/[worker]/hostname, change it to the rig/[worker]/hostname of YOUR RIG
+# NOTICE: Your rig/[worker]/hostname names are assigned automatically by the OS, do not change them
+#
+# EXPLANATION OF SETTINGS FOR INDIVIDUAL RIGS
+#
+# cor [worker]: set the core clock of individual GPUs on a single rig
+# mem [worker]: set the mem clock of individual GPUs on a single rig
+# fan [worker]: set the fan speed of individual GPUs on a single rig
+# pwr [worker]: set the powertune of individual GPUs on a single rig
+# vlt [worker]: set the voltage of individual GPUs on a single rig, in millivolts (mv) i.e. 1080mv = 1.08v
+# miner [worker]: set miner (ethminer, sgminer-gm, claymore, zcash-miner, optiminer-zcash, sgminer-gm-xmr, claymore-zcash, ewbf-zcash) ewbf-zcash is for zcash on nvidia
+# flg [worker]: set the flags of a single rig (applies to all GPUs on the rig)
+# mxt [worker]: set the maxgputemp of a single rig (applies to all GPUs on the rig)
+# reb [worker]: increment this value (example: 4 becomes 5) and the single rig will automatically reboot within 10 minutes
+# loc [worker]: set a maximum 8-letter code for rack/location information on a single rig (each rig MUST have a different code, or it will not report to panel)
+# sel [worker]: set the GPUs that should mine, default is no sel flag set, all GPUs may mine)
+# off [worker]: do not start the miner on boot (no such thing as "on", remove entire line to let miner start)
+# driverless [worker]: login prompt user/pass is ethos/live, force the rig to boot without graphics driver, for debugging purposes (this will turn off mining)
+# desktop [worker]: login prompt user/pass is ethos/live, set ethOS to headless mode by setting like "desktop [worker] disabled" (only works for RX/AMDGPU)
