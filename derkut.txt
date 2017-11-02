@@ -4,12 +4,12 @@ autoreboot 3
 custompanel derkutderkut
 
 
-##########MINERS##########
-#ethminer, sgminer-gm, claymore, claymore-zcash, optiminer-zcash, sgminer-gm-xmr, cgminer-skein, ewbf-zcash, ccminer
+############################################## MINERS ###############################################################
+#ethminer, sgminer-gm, claymore, claymore-zcash, optiminer-zcash, sgminer-gm-xmr, cgminer-skein, ewbf-zcash, ccminer#
+#####################################################################################################################
 
 
-
-##########CLAYMORE ETH ETHERMINE##########
+########## CLAYMORE ETH ETHERMINE ##########
 claymore=proxypool1 eu1.ethermine.org:4444                                               
 claymore=proxypool2 eu2.ethermine.org:4444
 claymore=proxywallet 0x22d20D0D56F7524441D86680d7a999C5966A8383
@@ -17,18 +17,16 @@ claymore=poolpass1 x
 claymore=poolpass2 x
 
 
-##########CLAYMORE ETH NANOPOOL##########
-claymore=proxypool1 eth-eu1.nanopool.org:9999                                              
-claymore=proxypool2 eth-eu2.nanopool.org:9999 
-claymore=proxywallet 0x22d20D0D56F7524441D86680d7a999C5966A8383
-claymore=poolpass1 x
-claymore=poolpass2 x
+########## CLAYMORE ETH NANOPOOL ##########
+#claymore=proxypool1 eth-eu1.nanopool.org:9999                                              
+#claymore=proxypool2 eth-eu2.nanopool.org:9999 
+#claymore=proxywallet 0x22d20D0D56F7524441D86680d7a999C5966A8383
+#claymore=poolpass1 x
+#claymore=poolpass2 x
 
 
 
-
-
-##########EWBF ZEK##########
+########## EWBF ZEK ##########
 ewbf-zcash=proxypool1 eu1-zcash.flypool.org:3333
 ewbf-zcash=proxypool2 eu2-zcash.flypool.org:3333
 ewbf-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
@@ -44,7 +42,7 @@ ewbf-zcash=poolpass2 z
 ##########RIGS CONFIG##########
 ###############################
 
-##########RIG027(246.5)##########
+##########RIG027(246)##########
 loc c8c3e6 27a5804g
 cor c8c3e6 1250 1250 1250 1250 1250 1250 1250 1250
 mem c8c3e6 2150 2150 2150 2150 2150 2150 2150 2150
@@ -53,28 +51,14 @@ pwr c8c3e6 5 5 5 5 5 5 5 5
 miner c8c3e6 claymore
 flg c8c3e6 --cl-global-work 8192 --farm-recheck 200
 
-##########RIG042()##########
-loc xxxxxx 42a5604g
-cor xxxxxx 1100 1100 1100 1100 1100 1100 1100 1100
-mem xxxxxx 2000 2000 2000 2000 2000 2000 2000 2000
-fan xxxxxx 65 65 65 65 65 65 65 65
-pwr xxxxxx 5 5 5 5 5 5 5 5
-miner xxxxxx claymore
-flg xxxxxx --cl-global-work 8192 --farm-recheck 200
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##########RIG031(414)##########
+loc 495b47 3110708g
+cor 495b47 1500 1500 1500 1500 1500 1500 1500 1500 1500 1500 1500 1500 1500
+mem 495b47 4500 4500 4500 4500 4500 4500 4500 4500 4500 4500 4500 4500 4500
+fan 495b47 34 34 34 34 34 34 34 34 34 34 34 34 34
+pwr 495b47 120 120 120 120 120 120 120 120 120 120 120 120 120
+miner 495b47 claymore
+flg 495b47 --cl-global-work 8192 --farm-recheck 200
 
 
 
