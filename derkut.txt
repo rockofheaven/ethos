@@ -1,5 +1,5 @@
 ##########GLOBAL CONFIG##########
-autoreboot 3
+autoreboot 2
 custompanel derkutderkut
 
 
