@@ -25,7 +25,7 @@ claymore=poolpass2 x
 
 
 
-########## EWBF ZEK ##########
+########## EWBF ZEK FLYPOOL ##########
 ewbf-zcash=proxypool1 eu1-zcash.flypool.org:3333
 ewbf-zcash=proxypool2 eu2-zcash.flypool.org:3333
 ewbf-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
