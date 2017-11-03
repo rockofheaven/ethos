@@ -34,6 +34,15 @@ ewbf-zcash=poolpass2 z
 
 
 
+########## EWBF ZEC NANOPOOL ##########
+#ewbf-zcash=proxypool1 zec-eu1.nanopool.org:6666
+#ewbf-zcash=proxypool2 zec-eu2.nanopool.org:6666
+#ewbf-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
+#ewbf-zcash=poolpass1 z
+#ewbf-zcash=poolpass2 z
+
+
+
 
 
 ###########################################################################
