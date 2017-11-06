@@ -8,7 +8,7 @@ custompanel derkutderkut
 #####################################################################################################################
 
 
-########## CLAYMORE ETH ETHERMINE ##########
+########## CLAYMORE ETH ETHERMINE OLD WALLET #################
 #claymore=proxypool1 eu1.ethermine.org:4444                                               
 #claymore=proxypool2 eu2.ethermine.org:4444
 #claymore=proxywallet 0x22d20D0D56F7524441D86680d7a999C5966A8383 
@@ -16,23 +16,23 @@ custompanel derkutderkut
 #claymore=poolpass2 x
 
 
-########## CLAYMORE ETH NANOPOOL ##########
+########## CLAYMORE ETH NANOPOOL BITTREX WALLET #############
 claymore=proxypool1 eth-eu1.nanopool.org:9999                                              
 claymore=proxypool2 eth-eu2.nanopool.org:9999 
-claymore=proxywallet 0x22d20D0D56F7524441D86680d7a999C5966A8383 
+claymore=proxywallet 0x13b528c9c5912d7c0d9a86b62471c0548562aab9
 claymore=poolpass1 x
 claymore=poolpass2 x
 
 
-########## CLAYMORE ETC NANOPOOL ##########
+########## CLAYMORE ETC NANOPOOL BITTREX WALLET ##########
 #claymore=proxypool1 etc-eu1.nanopool.org:19999
 #claymore=proxypool2 etc-eu2.nanopool.org:19999 
-#claymore=proxywallet 0x22
+#claymore=proxywallet 0x8dd078cdf65cbc0b5758ffcf0bfd71aba291877a
 #claymore=poolpass1 x
 #claymore=poolpass2 x
 
 
-########## EWBF ZEC FLYPOOL ##########
+########## EWBF ZEC FLYPOOL OLD WALLET ##########
 #ewbf-zcash=proxypool1 eu1-zcash.flypool.org:3333
 #ewbf-zcash=proxypool2 eu2-zcash.flypool.org:3333
 #ewbf-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
@@ -40,17 +40,17 @@ claymore=poolpass2 x
 #ewbf-zcash=poolpass2 z
 
 
-########## EWBF ZEC NANOPOOL ##########
+########## EWBF ZEC NANOPOOL BITTREX WALLET ##########
 ewbf-zcash=proxypool1 zec-eu1.nanopool.org:6666
 ewbf-zcash=proxypool2 zec-eu2.nanopool.org:6666
-ewbf-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
+ewbf-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
 ewbf-zcash=poolpass1 z
 ewbf-zcash=poolpass2 z
 
 
-########## EWBF ZEN ZHASH.PRO ##########
+########## EWBF ZEN ZHASH.PRO BITTREX WALLET ##########
 #ewbf-zcash=proxypool1 zhash.pro:3057
-#ewbf-zcash=proxywallet 
+#ewbf-zcash=proxywallet znY53KzB2U6jsX44xSatBVHs33vtgRN2hme
 #ewbf-zcash=poolpass1 x
 #ewbf-zcash=poolpass2 x
 
