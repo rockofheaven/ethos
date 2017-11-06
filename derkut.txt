@@ -17,11 +17,11 @@ custompanel derkutderkut
 
 
 ########## CLAYMORE ETH NANOPOOL ##########
-#claymore=proxypool1 eth-eu1.nanopool.org:9999                                              
-#claymore=proxypool2 eth-eu2.nanopool.org:9999 
-#claymore=proxywallet 0x22d20D0D56F7524441D86680d7a999C5966A8383 
-#claymore=poolpass1 x
-#claymore=poolpass2 x
+claymore=proxypool1 eth-eu1.nanopool.org:9999                                              
+claymore=proxypool2 eth-eu2.nanopool.org:9999 
+claymore=proxywallet 0x22d20D0D56F7524441D86680d7a999C5966A8383 
+claymore=poolpass1 x
+claymore=poolpass2 x
 
 
 ########## CLAYMORE ETC NANOPOOL ##########
@@ -33,19 +33,19 @@ custompanel derkutderkut
 
 
 ########## EWBF ZEC FLYPOOL ##########
-ewbf-zcash=proxypool1 eu1-zcash.flypool.org:3333
-ewbf-zcash=proxypool2 eu2-zcash.flypool.org:3333
-ewbf-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
-ewbf-zcash=poolpass1 z
-ewbf-zcash=poolpass2 z
-
-
-########## EWBF ZEC NANOPOOL ##########
-#ewbf-zcash=proxypool1 zec-eu1.nanopool.org:6666
-#ewbf-zcash=proxypool2 zec-eu2.nanopool.org:6666
+#ewbf-zcash=proxypool1 eu1-zcash.flypool.org:3333
+#ewbf-zcash=proxypool2 eu2-zcash.flypool.org:3333
 #ewbf-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
 #ewbf-zcash=poolpass1 z
 #ewbf-zcash=poolpass2 z
+
+
+########## EWBF ZEC NANOPOOL ##########
+ewbf-zcash=proxypool1 zec-eu1.nanopool.org:6666
+ewbf-zcash=proxypool2 zec-eu2.nanopool.org:6666
+ewbf-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
+ewbf-zcash=poolpass1 z
+ewbf-zcash=poolpass2 z
 
 
 ########## EWBF ZEN ZHASH.PRO ##########
