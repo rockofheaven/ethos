@@ -9,6 +9,9 @@ custompanel derkutderkut
 #ethminer, sgminer-gm, claymore, claymore-zcash, optiminer-zcash, sgminer-gm-xmr, cgminer-skein, ewbf-zcash, ccminer#
 #####################################################################################################################
 
+########## ETHMINER ETH TEST #################
+#flags --balance --per-device-stats --event-reboot gpu_sick --event-reboot gpu_dead
+
 
 ########## CLAYMORE ETH ETHERMINE OLD WALLET #################
 #claymore=proxypool1 eu1.ethermine.org:4444                                               
