@@ -26,4 +26,3 @@ if [[ $ERROR = *[!\ ]* ]];
   else
     sleep 10
   fi
-done
