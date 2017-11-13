@@ -1,4 +1,4 @@
-# 13.11.2017 12:18
+# 13.11.2017 13:53
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -15,6 +15,7 @@ ethminer=proxypool2 eth-eu2.nanopool.org:9999
 ethminer=proxywallet 0x13b528c9c5912d7c0d9a86b62471c0548562aab9
 ethminer=poolpass1 x
 ethminer=poolpass2 x
+ethminer=flags --farm-recheck 200 -G
 
 
 #flags --balance --per-device-stats --event-reboot gpu_sick --event-reboot gpu_dead
