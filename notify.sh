@@ -1,4 +1,10 @@
 #!/bin/bash
+#wget -O /home/ethos/notify.sh https://raw.githubusercontent.com/MrSamorus/ethos/master/notify.sh
+#sudo su
+#chmod 777 /home/ethos/notify.sh
+#crontab -e
+#*/1 * * * * flock -n /tmp/notify.lock /home/ethos/notify.sh
+
 
 CHATID=178774382
 APIKEY=452969473:AAEaoONOZJ_HPNXlbCtomghLodZOpfWzv5A
