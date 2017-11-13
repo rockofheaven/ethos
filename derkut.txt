@@ -1,4 +1,4 @@
-# 13.11.2017 11:56
+# 13.11.2017 12:18
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -9,7 +9,14 @@ custompanel derkutderkut
 #ethminer, sgminer-gm, claymore, claymore-zcash, optiminer-zcash, sgminer-gm-xmr, cgminer-skein, ewbf-zcash, ccminer#
 #####################################################################################################################
 
-########## ETHMINER ETH TEST #################
+########## ETHMINER ETH NANOPOOL BITTREX WALLET #################
+ethminer=proxypool1 eth-eu1.nanopool.org:9999                                              
+ethminer=proxypool2 eth-eu2.nanopool.org:9999 
+ethminer=proxywallet 0x13b528c9c5912d7c0d9a86b62471c0548562aab9
+ethminer=poolpass1 x
+ethminer=poolpass2 x
+
+
 #flags --balance --per-device-stats --event-reboot gpu_sick --event-reboot gpu_dead
 
 
@@ -197,7 +204,7 @@ cor 495b47 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000
 mem 495b47 4600 4600 4600 4600 4600 4350 4600 4600 4600 4600 4600 4600 4600
 fan 495b47 65 65 65 65 65 65 65 65 65 65 65 65 65
 pwr 495b47 120 120 120 120 120 120 120 120 120 120 120 120 120
-miner 495b47 claymore
+miner 495b47 ethminer
 
 
 # RIG032 Ethash ###########################################################
