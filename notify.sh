@@ -23,6 +23,7 @@ $ERROR "
 if [[ $ERROR = *[!\ ]* ]];
   then
     /usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${APIKEY}/sendMessage -d "text=${MSG}" -d chat_id=${CHATID}
+    dmesg --clear
   else
     sleep 10
   fi
