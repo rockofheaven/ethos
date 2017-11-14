@@ -64,11 +64,11 @@ ewbf-zcash=flags --eexit 3
 
 
 ########## EWBF ZEN ZHASH.PRO BITTREX WALLET ##########
-#ewbf-zcash=proxypool1 zhash.pro:3057
-#ewbf-zcash=proxywallet znY53KzB2U6jsX44xSatBVHs33vtgRN2hme
-#ewbf-zcash=poolpass1 x
-#ewbf-zcash=poolpass2 x
-#ewbf-zcash=flags --eexit 3
+ccminer=proxypool1 zhash.pro:3057
+ccminer=proxywallet znY53KzB2U6jsX44xSatBVHs33vtgRN2hme
+ccminer=poolpass1 x
+ccminer=poolpass2 x
+ccminer=flags -a equihash
 
 
 
@@ -195,7 +195,7 @@ cor 494ea3 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000
 mem 494ea3 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300
 fan 494ea3 65 65 65 65 65 65 65 65 65 65 65 65 65
 pwr 494ea3 120 120 120 120 120 120 120 120 120 120 120 120 120
-miner 494ea3 claymore
+miner 494ea3 ccminer
 
 
 # RIG031 Ethash ##### THE BEST OVERCLOCK ##################################
