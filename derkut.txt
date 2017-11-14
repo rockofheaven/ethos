@@ -1,4 +1,4 @@
-# 14.11.2017 08:59
+# 14.11.2017 09:12
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -55,20 +55,20 @@ claymore=poolpass2 x
 
 
 ########## EWBF ZEC NANOPOOL BITTREX WALLET ##########
-ewbf-zcash=proxypool1 zec-eu1.nanopool.org:6666
-ewbf-zcash=proxypool2 zec-eu2.nanopool.org:6666
-ewbf-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
-ewbf-zcash=poolpass1 z
-ewbf-zcash=poolpass2 z
-ewbf-zcash=flags --eexit 3
+#ewbf-zcash=proxypool1 zec-eu1.nanopool.org:6666
+#ewbf-zcash=proxypool2 zec-eu2.nanopool.org:6666
+#ewbf-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
+#ewbf-zcash=poolpass1 z
+#ewbf-zcash=poolpass2 z
+#ewbf-zcash=flags --eexit 3
 
 
 ########## EWBF ZEN ZHASH.PRO BITTREX WALLET ##########
-ccminer=proxypool1 zhash.pro:3057
-ccminer=proxywallet znY53KzB2U6jsX44xSatBVHs33vtgRN2hme
-ccminer=poolpass1 x
-ccminer=poolpass2 x
-ccminer=flags -a equihash
+ewbf-zcash=proxypool1 zhash.pro:3057
+ewbf-zcash=proxywallet znY53KzB2U6jsX44xSatBVHs33vtgRN2hme
+ewbf-zcash=poolpass1 x
+ewbf-zcash=poolpass2 x
+ewbf-zcash=flags --eexit 3
 
 
 
@@ -195,7 +195,7 @@ cor 494ea3 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000
 mem 494ea3 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300
 fan 494ea3 65 65 65 65 65 65 65 65 65 65 65 65 65
 pwr 494ea3 120 120 120 120 120 120 120 120 120 120 120 120 120
-miner 494ea3 ccminer
+miner 494ea3 ewbf-zcash
 
 
 # RIG031 Ethash ##### THE BEST OVERCLOCK ##################################
