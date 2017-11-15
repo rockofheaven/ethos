@@ -1,4 +1,4 @@
-# 14.11.2017 11:52
+# 14.11.2017 12:30
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -55,20 +55,20 @@ claymore=poolpass2 x
 
 
 ########## EWBF ZEC NANOPOOL BITTREX WALLET ##########
-#ewbf-zcash=proxypool1 zec-eu1.nanopool.org:6666
-#ewbf-zcash=proxypool2 zec-eu2.nanopool.org:6666
-#ewbf-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
-#ewbf-zcash=poolpass1 z
-#ewbf-zcash=poolpass2 z
-#ewbf-zcash=flags --eexit 3
+ewbf-zcash=proxypool1 zec-eu1.nanopool.org:6666
+ewbf-zcash=proxypool2 zec-eu2.nanopool.org:6666
+ewbf-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
+ewbf-zcash=poolpass1 z
+ewbf-zcash=poolpass2 z
+ewbf-zcash=flags --eexit 3
 
 
 ########## EWBF ZEN ZHASH.PRO BITTREX WALLET ##########
-ewbf-zcash=proxypool1 zhash.pro:3057
-ewbf-zcash=proxywallet znY53KzB2U6jsX44xSatBVHs33vtgRN2hme
-ewbf-zcash=poolpass1 x
-ewbf-zcash=poolpass2 x
-ewbf-zcash=flags --eexit 3
+#ewbf-zcash=proxypool1 zhash.pro:3057
+#ewbf-zcash=proxywallet znY53KzB2U6jsX44xSatBVHs33vtgRN2hme
+#ewbf-zcash=poolpass1 x
+#ewbf-zcash=poolpass2 x
+#ewbf-zcash=flags --eexit 3
 
 
 
