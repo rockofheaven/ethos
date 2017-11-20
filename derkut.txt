@@ -1,4 +1,4 @@
-# 20.11.2017 12:15
+# 20.11.2017 11:45
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -69,15 +69,6 @@ ewbf-zcash=flags --eexit 3
 #ewbf-zcash=poolpass1 x
 #ewbf-zcash=poolpass2 x
 #ewbf-zcash=flags --eexit 3
-
-
-########## DSTM ZEC NANOPOOL BITTREX WALLET ###############
-#dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
-#dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
-#dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
-#dstm-zcash=poolpass1 z
-#dstm-zcash=poolpass2 z
-#dstm-zcash=flags --time
 
 
 ########## TEST DSTM ZEC NANOPOOL BITTREX WALLET ##########
@@ -178,7 +169,7 @@ mem 83f63d 4400 4400 4400 4400 4400 4400 4400 4400
 fan 83f63d 75 75 75 75 75 75 75 75
 pwr 83f63d 140 140 140 140 140 140 140 140
 miner 83f63d dstm-zcash
-flg 83f63d --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.013N708G/derkut
+flg 83f63d --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.013N708G/derkut
 
 # RIG014 Ethash ##### THE BEST OVERCLOCK ###############################
 #mxt 84d799 80
@@ -197,7 +188,7 @@ mem 84d799 4450 4500 4500 4500 4450 4400 4500 4500
 fan 84d799 75 75 75 75 75 75 75 75
 pwr 84d799 150 150 150 150 150 150 150 150
 miner 84d799 dstm-zcash
-flg 84d799 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.014N708G/derkut
+flg 84d799 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.014N708G/derkut
 
 
 # RIG015 Ethash #########################################################
@@ -227,7 +218,7 @@ mem 83f371 4500 4400 4500 4500 4450 4450 4500 4500
 fan 83f371 75 75 75 75 75 75 75 75
 pwr 83f371 150 150 150 150 150 150 150 150
 miner 83f371 dstm-zcash
-flg 83f371 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.016N708G/derkut
+flg 83f371 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.016N708G/derkut
 
 
 # RIG017 Ethash ##########################################################
@@ -265,7 +256,7 @@ mem 83f53f 4400 4400 4400 4400 4400 4400 4400 4400
 fan 83f53f 75 75 75 75 75 75 75 75
 pwr 83f53f 140 140 140 140 140 140 140 140
 miner 83f53f dstm-zcash
-flg 83f53f --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.019N708G/derkut
+flg 83f53f --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.019N708G/derkut
 
 # RIG020 Ethash ###########################################################
 mxt 83f668 80
@@ -284,7 +275,7 @@ mem 83f656 4400 4400 4400 4400 4400 4400 4400 4400
 fan 83f656 75 75 75 75 75 75 75 75
 pwr 83f656 140 140 140 140 140 140 140 140
 miner 83f656 dstm-zcash
-flg 83f656 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.021N708G/derkut
+flg 83f656 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.021N708G/derkut
 
 # RIG022 Equihash #######################################################
 mxt 83f6b5 80
@@ -294,7 +285,7 @@ mem 83f6b5 4400 4400 4400 4400 4400 4400 4400 4400
 fan 83f6b5 75 75 75 75 75 75 75 75
 pwr 83f6b5 140 140 140 140 140 140 140 140
 miner 83f6b5 dstm-zcash
-flg 83f6b5 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.022N708G/derkut
+flg 83f6b5 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.022N708G/derkut
 
 # RIG023 Ethash ##### THE BEST OVERCLOCK #################################
 #mxt 83f6da 80
@@ -313,7 +304,7 @@ mem 83f6da 4500 4450 4450 4500 4450 4500 4500 4450
 fan 83f6da 75 75 75 75 75 75 75 75
 pwr 83f6da 150 150 150 150 150 150 150 150
 miner 83f6da dstm-zcash
-flg 83f6da --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.023N708G/derkut
+flg 83f6da --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.023N708G/derkut
 
 # RIG024 Ethash ###########################################################
 mxt 83f681 80
@@ -341,7 +332,7 @@ mem 4b7f6e 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400
 fan 4b7f6e 75 75 75 75 75 75 75 75 75 75 75 75 75
 pwr 4b7f6e 140 140 140 140 140 140 140 140 140 140 140 140 140
 miner 4b7f6e dstm-zcash
-flg 4b7f6e --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.025N708G/derkut
+flg 4b7f6e --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.025N708G/derkut
 
 
 # RIG026 Equihash #########################################################
@@ -352,7 +343,7 @@ mem 4b5871 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200
 fan 4b5871 100 100 100 100 100 100 100 100 100 100 100 100 100
 pwr 4b5871 130 130 130 130 130 130 130 130 130 130 130 130 130
 miner 4b5871 dstm-zcash
-flg 4b5871 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.026N603G/derkut
+flg 4b5871 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.026N603G/derkut
 
 
 # RIG027 Ethash ###########################################################
@@ -382,7 +373,7 @@ mem 496094 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400
 fan 496094 75 75 75 75 75 75 75 75 75 75 75 75 75
 pwr 496094 150 150 150 150 150 150 150 150 150 150 150 150 150
 miner 496094 dstm-zcash
-flg 496094 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.028N708G/derkut
+flg 496094 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.028N708G/derkut
 
 
 # RIG029 Equihash #########################################################
@@ -393,7 +384,7 @@ mem 49785d 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200
 fan 49785d 100 100 100 100 100 100 100 100 100 100 100 100 100
 pwr 49785d 130 130 130 130 130 130 130 130 130 130 130 130 130
 miner 49785d dstm-zcash
-flg 49785d --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.029N603G/derkut
+flg 49785d --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.029N603G/derkut
 
 
 # RIG030 Ethash ######## BAD GPU12 TEST ###############################
@@ -413,7 +404,7 @@ mem 494ea3 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300
 fan 494ea3 75 75 75 75 75 75 75 75 75 75 75 75 75
 pwr 494ea3 150 150 150 150 150 150 150 150 150 150 150 150 150
 miner 494ea3 dstm-zcash
-flg 494ea3 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.030N708G/derkut
+flg 494ea3 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.030N708G/derkut
 
 
 # RIG031 Ethash ##### THE BEST OVERCLOCK ###################################
@@ -433,7 +424,7 @@ mem 495b47 4500 4500 4500 4500 4500 4250 4500 4500 4500 4500 4500 4500 4500
 fan 495b47 75 75 75 75 75 75 75 75 75 75 75 75 75
 pwr 495b47 150 150 150 150 150 150 150 150 150 150 150 150 150
 miner 495b47 dstm-zcash
-flg 495b47 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.031N708G/derkut
+flg 495b47 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.031N708G/derkut
 
 # RIG032 Ethash ###########################################################
 #mxt 497883 80
@@ -453,7 +444,7 @@ mem 497883 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300
 fan 497883 75 75 75 75 75 75 75 75 75 75 75 75 75
 pwr 497883 150 150 150 150 150 150 150 150 150 150 150 150 150
 miner 497883 dstm-zcash
-flg 497883 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.032N708G/derkut
+flg 497883 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.032N708G/derkut
 
 # RIG033 Ethash ##########################################################
 mxt 4b7a0d 80
@@ -483,7 +474,7 @@ mem 4977ef 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200
 fan 4977ef 100 100 100 100 100 100 100 100 100 100 100 100 100
 pwr 4977ef 130 130 130 130 130 130 130 130 130 130 130 130 130
 miner 4977ef dstm-zcash
-flg 4977ef --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.035N606G/derkut
+flg 4977ef --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.035N606G/derkut
 
 
 # RIG036 Equihash #########################################################
@@ -494,7 +485,7 @@ mem 497893 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200
 fan 497893 65 65 65 65 65 65 65 65 65 65 65 65 65
 pwr 497893 130 130 130 130 130 130 130 130 130 130 130 130 130
 miner 497893 dstm-zcash
-flg 497893 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.036N603G/derkut
+flg 497893 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.036N603G/derkut
 
 
 # RIG037 Equihash #########################################################
@@ -505,7 +496,7 @@ mem 4b79ff 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200
 fan 4b79ff 100 100 100 100 100 100 100 100 100 100 100 100 100
 pwr 4b79ff 130 130 130 130 130 130 130 130 130 130 130 130 130
 miner 4b79ff dstm-zcash
-flg 4b79ff --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.037N603G/derkut
+flg 4b79ff --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.037N603G/derkut
 
 
 # RIG038 Equihash #########################################################
@@ -516,7 +507,7 @@ mem 49785b 4150 4150 4150 4150 4150 4150 4150 4150 4150 4150 4150 4150 4150
 fan 49785b 65 65 65 65 65 65 65 65 65 65 65 65 65
 pwr 49785b 130 130 130 130 130 130 130 130 130 130 130 130 130
 miner 49785b dstm-zcash
-flg 49785b --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.038N606G/derkut
+flg 49785b --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.038N606G/derkut
 
 
 # RIG039 Equihash #########################################################
@@ -527,7 +518,7 @@ mem 4975e9 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200
 fan 4975e9 100 100 100 100 100 100 100 100 100 100 100 100 100
 pwr 4975e9 130 130 130 130 130 130 130 130 130 130 130 130 130
 miner 4975e9 dstm-zcash
-flg 4975e9 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.039N606G/derkut
+flg 4975e9 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.039N606G/derkut
 
 
 # RIG040 Ethash ###########################################################
@@ -548,7 +539,7 @@ mem 494ea1 4300 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100
 fan 494ea1 65 65 65 65 65 65 65 65 65 65 65 65 65
 pwr 494ea1 150 130 130 130 130 130 130 130 130 130 130 130 130
 miner 494ea1 dstm-zcash
-flg 494ea1 --time --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.041N606G/derkut
+flg 494ea1 --user t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ.041N606G/derkut
 
 
 # RIG042 Ethash ###########################################################
