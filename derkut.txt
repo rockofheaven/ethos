@@ -1,4 +1,4 @@
-# 20.11.2017 10:10
+# 20.11.2017 11:20
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -69,6 +69,15 @@ ewbf-zcash=flags --eexit 3
 #ewbf-zcash=poolpass1 x
 #ewbf-zcash=poolpass2 x
 #ewbf-zcash=flags --eexit 3
+
+
+########## DSTM ZEC NANOPOOL BITTREX WALLET ##########
+dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
+dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
+dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
+dstm-zcash=poolpass1 z
+dstm-zcash=poolpass2 z
+dstm-zcash=flags --time
 
 
 
@@ -267,7 +276,7 @@ cor 83f656 2000 2000 2000 2000 2000 2000 2000 2000
 mem 83f656 4400 4400 4400 4400 4400 4400 4400 4400
 fan 83f656 75 75 75 75 75 75 75 75
 pwr 83f656 140 140 140 140 140 140 140 140
-miner 83f656 ewbf-zcash
+miner 83f656 dstm-zcash
 
 # RIG022 Equihash #######################################################
 mxt 83f6b5 80
