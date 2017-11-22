@@ -1,4 +1,4 @@
-# 22.11.2017 18:52
+# 22.11.2017 18:55
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -77,7 +77,7 @@ dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
 dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
 dstm-zcash=poolpass1 z
 dstm-zcash=poolpass2 z
-dstm-zcash=flags --time --temp-target 65
+dstm-zcash=flags --time
 
 
 
