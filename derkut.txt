@@ -1,4 +1,4 @@
-# 23.11.2017 09:20
+# 23.11.2017 10:15
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -45,15 +45,6 @@ claymore=poolpass2 x
 #claymore=poolpass2 x
 
 
-########## EWBF ZEC FLYPOOL OLD WALLET ##########
-#ewbf-zcash=proxypool1 eu1-zcash.flypool.org:3333
-#ewbf-zcash=proxypool2 eu2-zcash.flypool.org:3333
-#ewbf-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
-#ewbf-zcash=poolpass1 z
-#ewbf-zcash=poolpass2 z
-#ewbf-zcash=flags --eexit 3
-
-
 ########## EWBF ZEC NANOPOOL BITTREX WALLET ##########
 ewbf-zcash=proxypool1 zec-eu1.nanopool.org:6666
 ewbf-zcash=proxypool2 zec-eu2.nanopool.org:6666
@@ -72,14 +63,20 @@ ewbf-zcash=flags --eexit 3
 
 
 ########## DSTM ZEC NANOPOOL BITTREX WALLET ##########
+#dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
+#dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
+#dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
+#dstm-zcash=poolpass1 z
+#dstm-zcash=poolpass2 z
+#dstm-zcash=flags --time
+
+########## DSTM ZEC NANOPOOL EXMO WALLET ##########
 dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
 dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
-dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
+dstm-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
 dstm-zcash=poolpass1 z
 dstm-zcash=poolpass2 z
 dstm-zcash=flags --time
-
-
 
 
 ###########################################################################
