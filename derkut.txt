@@ -1,4 +1,4 @@
-# 24.11.2017 17:55
+# 27.11.2017 11:00
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -63,20 +63,20 @@ ewbf-zcash=flags --eexit 3
 
 
 ########## DSTM ZEC NANOPOOL BITTREX WALLET ##########
-#dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
-#dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
-#dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
-#dstm-zcash=poolpass1 z
-#dstm-zcash=poolpass2 z
-#dstm-zcash=flags --time
-
-########## DSTM ZEC NANOPOOL EXMO WALLET ##########
 dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
 dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
-dstm-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
+dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
 dstm-zcash=poolpass1 z
 dstm-zcash=poolpass2 z
 dstm-zcash=flags --time
+
+########## DSTM ZEC NANOPOOL EXMO WALLET ##########
+#dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
+#dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
+#dstm-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
+#dstm-zcash=poolpass1 z
+#dstm-zcash=poolpass2 z
+#dstm-zcash=flags --time
 
 
 ###########################################################################
