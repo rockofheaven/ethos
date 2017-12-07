@@ -1,4 +1,4 @@
-# 07.12.2017 11:00
+# 07.12.2017 11:15
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -56,13 +56,13 @@ dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
 dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
 dstm-zcash=poolpass1 z
 dstm-zcash=poolpass2 z
-dstm-zcash=flags --time
+dstm-zcash=flags --time --temp-target 65
 
 ########## DSTM BTG SUPRNOVA BITTREX WALLET ##########
 #dstm-zcash=proxypool1 btg.suprnova.cc:8816
 #dstm-zcash=proxywallet eduardkolberg
 #dstm-zcash=poolpass1 x
-#dstm-zcash=flags --time
+#dstm-zcash=flags --time --temp-target 65
 
 ########## DSTM ZEC NANOPOOL EXMO WALLET ##########
 #dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
@@ -70,7 +70,7 @@ dstm-zcash=flags --time
 #dstm-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
 #dstm-zcash=poolpass1 z
 #dstm-zcash=poolpass2 z
-#dstm-zcash=flags --time
+#dstm-zcash=flags --time --temp-target 65
 
 
 ###########################################################################
