@@ -1,4 +1,4 @@
-# 08.12.2017 15:55
+# 08.12.2017 17:12
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -71,6 +71,12 @@ dstm-zcash=flags --time
 #dstm-zcash=poolpass1 z
 #dstm-zcash=poolpass2 z
 #dstm-zcash=flags --time
+
+########## SGMINER FTC COINOTRON BITTREX WALLET ##########
+sgminer-gm=proxypool1 coinotron.com:3337
+sgminer-gm=proxywallet 6p7gu9mcfSfhqpgUhXiS8Cb5RkJc2oJnyk
+sgminer-gm=poolpass1 x
+
 
 
 ###########################################################################
@@ -592,7 +598,7 @@ mem 47ba48 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000
 fan 47ba48 75 75 75 75 75 75 75 75 75 75 75 75 75
 pwr 47ba48 4 4 4 4 4 4 4 4 4 4 4 4 4
 vlt 47ba48 900 900 900 900 900 900 900 900 900 900 900 900 900
-miner 47ba48 claymore
+miner 47ba48 sgminer-gm
 
 
 
