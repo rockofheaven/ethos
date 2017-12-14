@@ -1,4 +1,4 @@
-# 14.12.2017 10:55
+# 14.12.2017 13:35
 
 ##########GLOBAL CONFIG##########
 autoreboot true
@@ -25,12 +25,12 @@ claymore=poolpass1 x
 claymore=poolpass2 x
 
 
-########## CLAYMORE ETC NANOPOOL BITTREX WALLET ##########
-#claymore=proxypool1 etc-eu1.nanopool.org:19999
-#claymore=proxypool2 etc-eu2.nanopool.org:19999 
-#claymore=proxywallet 0x8dd078cdf65cbc0b5758ffcf0bfd71aba291877a
-#claymore=poolpass1 x
-#claymore=poolpass2 x
+########## ETHMINER ETH NANOPOOL BITTREX WALLET ##########
+ethminer=proxypool1 eth-eu1.nanopool.org:9999
+ethminer=proxypool2 eth-eu2.nanopool.org:9999
+ethminer=proxywallet 0x13b528c9c5912d7c0d9a86b62471c0548562aab9
+ethminer=poolpass1 x
+ethminer=poolpass2 x
 
 
 ########## EWBF ZEC NANOPOOL BITTREX WALLET ##########
@@ -93,7 +93,7 @@ mem 7c304d 2100 2100 2100 2100 2100 2100
 fan 7c304d 65 65 65 65 65 65
 pwr 7c304d 4 4 4 4 4 4
 vlt 7c304d 900 900 900 900 900 900
-miner 7c304d claymore
+miner 7c304d ethminer
 
 # RIG002 Ethash #######################################################
 mxt 7c3098 75
