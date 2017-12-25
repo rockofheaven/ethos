@@ -1,9 +1,9 @@
-# 25.12.2017 10:20
+# 25.12.2017 10:19
 
 ##########GLOBAL CONFIG##########
 autoreboot true
 custompanel derkutderkut
-
+poolemail eduard.kolberg@gmail.com
 
 ############################################## MINERS ###############################################################
 #ethminer, sgminer-gm, claymore, claymore-zcash, optiminer-zcash, sgminer-gm-xmr, cgminer-skein, ewbf-zcash, ccminer#
