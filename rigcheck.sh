@@ -20,22 +20,24 @@ if [ "$defunct" -eq 1 ]
 		
 if [ "$allowed" -eq 0 ]
 	then
-		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} minestart" -d chat_id=${chatid}
+		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} minestart." -d chat_id=${chatid}
 		/opt/ethos/bin/allow
+		/opt/ethos/bin/minestop
+		sleep 5
+		/opt/ethos/bin/minestart
 		exit 1
 	fi
 
 if [ "$overheat" -eq 1 ]
 	then
-		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} overheated! Using clear-thermals/" -d chat_id=${chatid}
+		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} overheated! Using clear-thermals." -d chat_id=${chatid}
 		/opt/ethos/bin/clear-thermals
 		exit 1
 	fi
 		
 if [ "$throttled" -eq 1 ]
 	then
-		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} throttled! Using clear-thermals/" -d chat_id=${chatid}
+		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} throttled! Using clear-thermals." -d chat_id=${chatid}
 		/opt/ethos/bin/clear-thermals
 		exit 1
 	fi
-	
