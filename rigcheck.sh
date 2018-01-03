@@ -13,28 +13,28 @@ throttled=`grep throttled /var/run/ethos/stats.file | sed 's/\(^\)\(.*\)throttle
 
 if [ "$defunct" -eq 1 ]
 	then
-		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="RIG ${rigname} go to reboot... Failed cards: ${xid}" -d chat_id=${chatid}
-		/opt/ethos/bin/r
+		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} do not mining... Using clear-thermals. Failed cards: ${xid}" -d chat_id=${chatid}
+		/opt/ethos/bin/clear-thermals
 		exit 1
 	fi
 		
 if [ "$allowed" -eq 0 ]
 	then
-		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="RIG ${rigname} minestart" -d chat_id=${chatid}
+		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} minestart" -d chat_id=${chatid}
 		/opt/ethos/bin/allow
 		exit 1
 	fi
 
 if [ "$overheat" -eq 1 ]
 	then
-		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="RIG ${rigname} overheated! Using clear-thermals" -d chat_id=${chatid}
+		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} overheated! Using clear-thermals/" -d chat_id=${chatid}
 		/opt/ethos/bin/clear-thermals
 		exit 1
 	fi
 		
 if [ "$throttled" -eq 1 ]
 	then
-		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="RIG ${rigname} throttled! Using clear-thermals" -d chat_id=${chatid}
+		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} throttled! Using clear-thermals/" -d chat_id=${chatid}
 		/opt/ethos/bin/clear-thermals
 		exit 1
 	fi
