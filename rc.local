@@ -11,5 +11,5 @@
 #
 # By default this script does nothing.
 
-wget -O /home/ethos/notify.sh https://raw.githubusercontent.com/MrSamorus/ethos/master/notify.sh
+wget -O /home/ethos/rigcheck.sh https://raw.githubusercontent.com/MrSamorus/ethos/master/rigcheck.sh
 exit 0
