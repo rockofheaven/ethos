@@ -8,7 +8,7 @@ nomine=`cat /var/run/ethos/nomine.file`
 dissallowed=`grep allowed /var/run/ethos/stats.file | sed 's/\(^\)\(.*\)allowed:\s*\(.*\)/\1\3/'`
 overheat=`grep overheat: /var/run/ethos/stats.file | sed 's/\(^\)\(.*\)overheat:\s*\(.*\)/\1\3/'`
 overheatedgpu=`cat /var/run/ethos/overheatedgpu.file`
-temp=`grep temp /var/run/ethos/stats.file | sed 's/\(^\)\(.*\)temp:\s*\(.*\)/\1\3/'`
+temp=`grep ^temp /var/run/ethos/stats.file | sed 's/\(^\)\(.*\)temp:\s*\(.*\)/\1\3/'`
 throttled=`grep throttled /var/run/ethos/stats.file | sed 's/\(^\)\(.*\)throttled:\s*\(.*\)/\1\3/'`
 adl_error=`grep adl_error /var/run/ethos/stats.file | sed 's/\(^\)\(.*\)adl_error:\s*\(.*\)/\1\3/'`
 
