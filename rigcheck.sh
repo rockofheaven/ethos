@@ -9,6 +9,7 @@ dissallowed=`grep allowed /var/run/ethos/stats.file | sed 's/\(^\)\(.*\)allowed:
 overheat=`grep overheat /var/run/ethos/stats.file | sed 's/\(^\)\(.*\)overheat:\s*\(.*\)/\1\3/'`
 overheatedgpu=`cat /var/run/ethos/overheatedgpu.file`
 throttled=`grep throttled /var/run/ethos/stats.file | sed 's/\(^\)\(.*\)throttled:\s*\(.*\)/\1\3/'`
+adl_error=`grep adl_error /var/run/ethos/stats.file | sed 's/\(^\)\(.*\)adl_error:\s*\(.*\)/\1\3/'`
 
 
 
@@ -26,7 +27,13 @@ if [ "$nomine" -eq 1 ]
 		/opt/ethos/bin/clear-thermals
 		exit 1
 	fi
-
+	
+if [ "$adl_error" -eq 1 ]
+	then
+		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} have ADL error and was rebooted. Failed cards: ${xid}" -d chat_id=${chatid}
+		/opt/ethos/bin/r
+		exit 1
+	fi
 		
 if [ "$allowed" -eq 0 ]
 	then
