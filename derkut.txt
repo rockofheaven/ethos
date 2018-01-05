@@ -1,4 +1,4 @@
-# 03.01.2018 14:05
+# 05.01.2018 14:10
 
 ##########GLOBAL CONFIG##########
 autoreboot 24
@@ -43,12 +43,12 @@ ewbf-zcash=flags --eexit 3
 
 
 ########## DSTM ZEC NANOPOOL BITTREX WALLET ##########
-dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
-dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
-dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
-dstm-zcash=poolpass1 z
-dstm-zcash=poolpass2 z
-dstm-zcash=flags --time
+#dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
+#dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
+#dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
+#dstm-zcash=poolpass1 z
+#dstm-zcash=poolpass2 z
+#dstm-zcash=flags --time
 
 ########## DSTM BTG SUPRNOVA BITTREX WALLET ##########
 #dstm-zcash=proxypool1 btg.suprnova.cc:8816
@@ -64,12 +64,11 @@ dstm-zcash=flags --time
 #dstm-zcash=poolpass2 z
 #dstm-zcash=flags --time
 
-########## SGMINER XMR NANOPOOL BITTREX WALLET ##########
-sgminer-gm-xmr=proxypool1 xmr-eu1.nanopool.org:14444
-sgminer-gm-xmr=proxypool2 xmr-eu2.nanopool.org:14444
-sgminer-gm-xmr=poolpass1 x
-sgminer-gm-xmr=poolpass2 x
-sgminer-gm-xmr=proxywallet 463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ
+########## DSTM BTG SUPRNOVA BITTREX WALLET ##########
+dstm-zcash=proxypool1 zcl.suprnova.cc:4043
+dstm-zcash=proxywallet eduardkolberg
+dstm-zcash=poolpass1 x
+dstm-zcash=flags --time
 
 
 
