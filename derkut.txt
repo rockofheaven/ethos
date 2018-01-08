@@ -1,4 +1,4 @@
-# 08.01.2018 14:35
+# 08.01.2018 14:55
 
 ##########GLOBAL CONFIG##########
 autoreboot 24
@@ -15,6 +15,7 @@ poolemail eduard.kolberg@gmail.com
 #claymore=proxywallet 0x22d20D0D56F7524441D86680d7a999C5966A8383 
 #claymore=poolpass1 x
 #claymore=poolpass2 x
+#claymore=flags -dbg -1 -colors 1 -allpools 1 -gser 2 -wd 1 -tt 65 -fanmin 65 -mode 1
 
 
 ########## CLAYMORE ETH NANOPOOL BITTREX WALLET #############
@@ -23,6 +24,7 @@ claymore=proxypool2 eth-eu2.nanopool.org:9999
 claymore=proxywallet 0x13b528c9c5912d7c0d9a86b62471c0548562aab9
 claymore=poolpass1 x
 claymore=poolpass2 x
+claymore=flags -dbg -1 -colors 1 -allpools 1 -gser 2 -wd 1 -tt 65 -fanmin 65 -mode 1
 
 
 ########## EWBF ZEC NANOPOOL BITTREX WALLET ##########
