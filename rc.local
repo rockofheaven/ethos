@@ -13,7 +13,5 @@
 
 wget -O /home/ethos/rigcheck.sh https://raw.githubusercontent.com/MrSamorus/ethos/master/rigcheck.sh
 chmod 777 /home/ethos/rigcheck.sh
-wget -O /home/ethos/claymore.stub.conf https://raw.githubusercontent.com/MrSamorus/ethos/master/claymore.stub.conf
-chmod 777 /home/ethos/claymore.stub.conf
 
 exit 0
