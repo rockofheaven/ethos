@@ -55,7 +55,6 @@ if [ "$overheat" -eq 1 ]
 		
 if [ "$throttled" -eq 1 ]
 	then
-		/usr/bin/curl -m 5 -s -X POST --output /dev/null https://api.telegram.org/bot${apikey}/sendMessage -d text="${rigname} throttled!  GPU temps: ${temp} Using clear-thermals." -d chat_id=${chatid}
 		/opt/ethos/bin/clear-thermals
 		exit 1
 	fi
