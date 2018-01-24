@@ -1,0 +1,866 @@
+# 23.01.2018 17:05
+
+##########GLOBAL CONFIG##########
+autoreboot false
+custompanel derkutderkut
+poolemail eduard.kolberg@gmail.com
+
+############################################## MINERS ###############################################################
+#ethminer, sgminer-gm, claymore, claymore-zcash, optiminer-zcash, sgminer-gm-xmr, cgminer-skein, ewbf-zcash, ccminer#
+#####################################################################################################################
+
+########## CLAYMORE ETH ETHERMINE EXMO WALLET #################
+#claymore=proxypool1 eu1.ethermine.org:4444                                               
+#claymore=proxypool2 eu2.ethermine.org:4444
+#claymore=proxywallet 0x22d20D0D56F7524441D86680d7a999C5966A8383 
+#claymore=poolpass1 x
+#claymore=poolpass2 x
+#claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65
+
+
+########## CLAYMORE ETH NANOPOOL BITTREX WALLET #############
+claymore=proxypool1 eth-eu1.nanopool.org:9999                                              
+claymore=proxypool2 eth-eu2.nanopool.org:9999 
+claymore=proxywallet 0x13b528c9c5912d7c0d9a86b62471c0548562aab9
+claymore=poolpass1 x
+claymore=poolpass2 x
+claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65
+
+
+########## EWBF ZEC NANOPOOL BITTREX WALLET ##########
+ewbf-zcash=proxypool1 zec-eu1.nanopool.org:6666
+ewbf-zcash=proxypool2 zec-eu2.nanopool.org:6666
+ewbf-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
+ewbf-zcash=poolpass1 z
+ewbf-zcash=poolpass2 z
+ewbf-zcash=flags --eexit 3
+
+
+########## EWBF ZEN ZHASH.PRO BITTREX WALLET ##########
+#ewbf-zcash=proxypool1 zhash.pro:3057
+#ewbf-zcash=proxywallet znY53KzB2U6jsX44xSatBVHs33vtgRN2hme
+#ewbf-zcash=poolpass1 x
+#ewbf-zcash=poolpass2 x
+#ewbf-zcash=flags --eexit 3
+
+
+########## DSTM ZEC NANOPOOL BITTREX WALLET ##########
+dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
+dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
+dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
+dstm-zcash=poolpass1 z
+dstm-zcash=poolpass2 z
+dstm-zcash=flags --time
+
+########## DSTM BTG SUPRNOVA BITTREX WALLET ##########
+#dstm-zcash=proxypool1 btg.suprnova.cc:8816
+#dstm-zcash=proxywallet eduardkolberg
+#dstm-zcash=poolpass1 x
+#dstm-zcash=flags --time
+
+########## DSTM ZEC NANOPOOL EXMO WALLET ##########
+#dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
+#dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
+#dstm-zcash=proxywallet t1JJShWYjTsbRB6NADBaVTVKrKNJNz2F4za
+#dstm-zcash=poolpass1 z
+#dstm-zcash=poolpass2 z
+#dstm-zcash=flags --time
+
+########## DSTM BTG SUPRNOVA BITTREX WALLET ##########
+#dstm-zcash=proxypool1 zcl.suprnova.cc:4043
+#dstm-zcash=proxywallet eduardkolberg
+#dstm-zcash=poolpass1 x
+#dstm-zcash=flags --time
+
+
+
+###########################################################################
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>> RIGS CONFIG <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<#
+###########################################################################
+
+# RIG001 Ethash #######################################################
+mxt 7c304d 75
+loc 7c304d 001A804G
+cor 7c304d 1250 1250 1250 1250 1250 1250
+mem 7c304d 2100 2100 2100 2100 2100 2100
+fan 7c304d 65 65 65 65 65 65
+pwr 7c304d 4 4 4 4 4 4
+vlt 7c304d 800 800 800 800 800 800
+miner 7c304d claymore
+
+# RIG002 Ethash #######################################################
+mxt 7c3098 75
+loc 7c3098 002A804G
+cor 7c3098 1200 1200 1200 1200 1200 1200
+mem 7c3098 2100 2100 2100 2100 2100 2100
+fan 7c3098 65 65 65 65 65 65
+pwr 7c3098 4 4 4 4 4 4
+vlt 7c3098 800 800 800 800 800 800
+miner 7c3098 claymore
+
+# RIG003 Ethash #######################################################
+mxt 7c3104 75
+loc 7c3104 003A804G
+cor 7c3104 1200 1200 1200 1200 1200 1200
+mem 7c3104 2100 2100 2100 2100 2100 2100
+fan 7c3104 65 65 65 65 65 65
+pwr 7c3104 4 4 4 4 4 4
+vlt 7c3104 800 800 800 800 800 800
+miner 7c3104 claymore
+
+# RIG004 Ethash #######################################################
+mxt 7c3066 75
+loc 7c3066 004A804G
+cor 7c3066 1200 1200 1200 1200 1200 1200
+mem 7c3066 2100 2100 2100 2100 2100 2100
+fan 7c3066 65 65 65 65 65 65
+pwr 7c3066 4 4 4 4 4 4
+vlt 7c3066 800 800 800 800 800 800
+miner 7c3066 claymore
+
+# RIG005 Ethash #######################################################
+mxt 7c3096 75
+loc 7c3096 005A704G
+cor 7c3096 1100 1100 1100 1100 1100 1100
+mem 7c3096 2000 2000 2000 2000 2000 2000
+fan 7c3096 65 65 65 65 65 65
+pwr 7c3096 4 4 4 4 4 4
+vlt 7c3096 800 800 800 800 800 800
+miner 7c3096 claymore
+
+# RIG006 Ethash #######################################################
+mxt 83f565 75
+loc 83f565 006A808G
+cor 83f565 1100 1100 1100 1100 1100 1100 1100 1100
+mem 83f565 2000 2000 2000 2000 2000 2000 2000 2000
+fan 83f565 65 65 65 65 65 65 65 65
+pwr 83f565 4 4 4 4 4 4 4 4
+vlt 83f565 800 800 800 800 800 800 800 800
+miner 83f565 claymore
+
+# RIG007 Ethash #######################################################
+mxt 83f60f 75
+loc 83f60f 007A808G
+cor 83f60f 1100 1100 1100 1100 1100 1100 1100 1100
+mem 83f60f 2000 2000 2000 2000 2000 2000 2000 2000
+fan 83f60f 65 65 65 65 65 65 65 65
+pwr 83f60f 4 4 4 4 4 4 4 4
+vlt 83f60f 800 800 800 800 800 800 800 800
+miner 83f60f claymore
+
+# RIG008 Ethash #######################################################
+mxt 83f54a 75
+loc 83f54a 008A704G
+cor 83f54a 1150 1150 1150 1150 1150 1050 1050 1050
+mem 83f54a 2000 2000 2000 2000 2000 1950 1900 1950
+fan 83f54a 65 65 65 65 65 65 65 65
+pwr 83f54a 4 4 4 4 4 4 4 4
+vlt 83f54a 800 800 800 800 800 800 800 800
+miner 83f54a claymore
+
+# RIG009 Ethash #######################################################
+mxt 83f56b 75
+loc 83f56b 009A704G
+cor 83f56b 1150 1150 1150 1150 1150 1050 1050 1050
+mem 83f56b 2000 2000 2000 2000 2000 1950 1900 1950
+fan 83f56b 65 65 65 65 65 65 65 65
+pwr 83f56b 4 4 4 4 4 4 4 4
+vlt 83f56b 800 800 800 800 800 800 800 800
+miner 83f56b claymore
+
+# RIG010 Ethash #######################################################
+#mxt 83f54b 75
+#loc 83f54b 010N603G
+#cor 83f54b 1000 1000 1000 1000 1000 1000 1000 1000
+#mem 83f54b 4300 4300 4300 4200 4200 4300 4200 4300
+#fan 83f54b 90 90 90 90 90 90 90 90
+#pwr 83f54b 110 110 110 110 110 110 110 110
+#miner 83f54b claymore
+
+# RIG010 Equihash #######################################################
+mxt 83f54b 75
+loc 83f54b 010N603G
+cor 83f54b 2120 2120 2120 2120 2120 2120 2120 2120
+mem 83f54b 4400 4400 4400 4400 4400 4400 4400 4400
+fan 83f54b 100 100 100 100 100 100 100 100
+pwr 83f54b 100 100 100 100 100 100 100 100
+miner 83f54b dstm-zcash
+
+# RIG011 Ethash #######################################################
+#mxt 83f6de 75
+#loc 83f6de 011N603G
+#cor 83f6de 1000 1000 1000 1000 1000 1000 1000 1000
+#mem 83f6de 4350 4350 4350 4350 4350 4350 4350 4350
+#fan 83f6de 90 90 90 90 90 90 90 90
+#pwr 83f6de 110 110 110 110 110 110 110 110
+#miner 83f6de claymore
+
+# RIG011 Equihash #######################################################
+mxt 83f6de 75
+loc 83f6de 011N603G
+cor 83f6de 2120 2120 2120 2120 2120 2120 2120 2120
+mem 83f6de 4400 4400 4400 4400 4400 4400 4400 4400
+fan 83f6de 100 100 100 100 100 100 100 100
+pwr 83f6de 100 100 100 100 100 100 100 100
+miner 83f6de dstm-zcash
+
+# RIG012 Ethash #######################################################
+#mxt 83f67b 75
+#loc 83f67b 012A804G
+#cor 83f67b 1150 1150 1150 1150 1150 1050 1050 1050
+#mem 83f67b 2000 2000 2000 2000 2000 2000 2000 2000
+#fan 83f67b 65 65 65 65 65 65 65 65
+#pwr 83f67b 4 4 4 4 4 4 4 4
+#vlt 83f67b 800 800 800 800 800 800 800 800
+#miner 83f67b claymore
+
+# RIG012 Equihash 1080 TEST ##############################################
+mxt 83f67b 75
+loc 83f67b 012N808G
+cor 83f67b 2000 2000 2000 2000 2000 2000 2000 2000
+mem 83f67b 5300 5300 5300 5300 5300 5300 5300 5300
+fan 83f67b 100 100 100 100 100 100 100 100
+pwr 83f67b 170 170 170 170 170 170 170 170
+miner 83f67b dstm-zcash
+
+# RIG013 Ethash #######################################################
+mxt 83f63d 75
+loc 83f63d 013N708G
+cor 83f63d 1000 1000 1000 1000 1000 1000 1000 1000
+mem 83f63d 4500 4500 4500 4500 4400 4500 4500 4500
+fan 83f63d 65 65 65 65 65 65 65 65
+pwr 83f63d 120 120 120 120 120 120 120 120
+miner 83f63d claymore
+
+# RIG013 Equihash #######################################################
+#mxt 83f63d 75
+#loc 83f63d 013N708G
+#cor 83f63d 2100 2100 2100 2100 2100 2100 2100 2100
+#mem 83f63d 4500 4500 4500 4500 4400 4500 4500 4500
+#fan 83f63d 65 65 65 65 65 65 65 65
+#pwr 83f63d 130 130 130 130 130 130 130 130
+#miner 83f63d dstm-zcash
+
+
+# RIG014 Ethash ##### THE BEST OVERCLOCK ###############################
+mxt 84d799 75
+loc 84d799 014N708G
+cor 84d799 1000 1000 1000 1000 1000 1000 1000 1000
+mem 84d799 4550 4600 4600 4600 4550 4500 4600 4600
+fan 84d799 65 65 65 65 65 65 65 65
+pwr 84d799 120 120 120 120 120 120 120 120
+miner 84d799 claymore
+
+# RIG014 Equihash #######################################################
+#mxt 84d799 75
+#loc 84d799 014N708G
+#cor 84d799 2100 2100 2100 2100 2100 2100 2100 2100
+#mem 84d799 4550 4600 4600 4600 4550 4500 4600 4600
+#fan 84d799 65 65 65 65 65 65 65 65
+#pwr 84d799 130 130 130 130 130 130 130 130
+#miner 84d799 dstm-zcash
+
+
+# RIG015 Ethash #########################################################
+mxt 83f544 85
+loc 83f544 015A704G
+cor 83f544 1150 1150 1150 1150 1150 1150 1150 1150
+mem 83f544 2000 2000 2000 2000 2000 2000 2000 2000
+fan 83f544 100 65 65 65 65 65 65 65
+pwr 83f544 4 4 4 4 4 4 4 4
+vlt 83f544 900 900 900 900 900 900 900 900
+miner 83f544 claymore
+
+
+# RIG016 Ethash ##### THE BEST OVERCLOCK #################################
+mxt 83f371 75
+loc 83f371 016N708G
+cor 83f371 1000 1000 1000 1000 1000 1000 1000 1000
+mem 83f371 4600 4500 4600 4600 4550 4550 4600 4600
+fan 83f371 65 65 65 65 65 65 65 65
+pwr 83f371 120 120 120 120 120 120 120 120
+miner 83f371 claymore
+
+# RIG016 Equihash #######################################################
+#mxt 83f371 75
+#loc 83f371 016N708G
+#cor 83f371 2100 2100 2100 2100 2100 2100 2100 2100
+#mem 83f371 4600 4500 4600 4600 4550 4550 4600 4600
+#fan 83f371 65 65 65 65 65 65 65 65
+#pwr 83f371 130 130 130 130 130 130 130 130
+#miner 83f371 dstm-zcash
+
+
+# RIG017 Ethash ###### FAN 100 ALWAYS ####################################
+mxt 83f569 75
+loc 83f569 017N708G
+cor 83f569 1000 1000 1000 1000 1000 1000 1000 1000
+mem 83f569 4500 4500 4400 4500 4500 4500 4500 4500
+fan 83f569 100 100 100 100 100 100 100 100
+pwr 83f569 120 120 120 120 120 120 120 120
+miner 83f569 claymore
+
+# RIG017 Equihash #########################################################
+#mxt 83f569 75
+#loc 83f569 017N708G
+#cor 83f569 2100 2100 2100 2100 2100 2100 2100 2100
+#mem 83f569 4500 4500 4400 4500 4500 4500 4500 4500
+#fan 83f569 65 65 65 65 65 65 65 65
+#pwr 83f569 130 130 130 130 130 130 130 130
+#miner 83f569 ewbf-zcash
+
+# RIG018 Ethash ##########################################################
+mxt 83f634 75
+loc 83f634 018N708G
+cor 83f634 1000 1000 1000 1000 1000 1000 1000 1000
+mem 83f634 4450 4500 4500 4500 4450 4450 4500 4500
+fan 83f634 65 65 65 65 65 65 65 65
+pwr 83f634 120 120 120 120 120 120 120 120
+miner 83f634 claymore
+
+# RIG018 Equihash ##########################################################
+#mxt 83f634 75
+#loc 83f634 018N708G
+#cor 83f634 2100 2100 2100 2100 2100 2100 2100 2100
+#mem 83f634 4450 4500 4500 4500 4450 4450 4500 4500
+#fan 83f634 65 65 65 65 65 65 65 65
+#pwr 83f634 130 130 130 130 130 130 130 130
+#miner 83f634 dstm-zcash
+
+# RIG019 Ethash #######################################################
+mxt 83f53f 75
+loc 83f53f 019N708G
+cor 83f53f 1000 1000 1000 1000 1000 1000 1000 1000
+mem 83f53f 4500 4500 4500 4500 4500 4500 4500 4500
+fan 83f53f 65 65 65 65 65 65 65 65
+pwr 83f53f 120 120 120 120 120 120 120 120
+miner 83f53f claymore
+
+# RIG019 Equihash #######################################################
+#mxt 83f53f 75
+#loc 83f53f 019N708G
+#cor 83f53f 2100 2100 2100 2100 2100 2100 2100 2100
+#mem 83f53f 4500 4500 4500 4500 4500 4500 4500 4500
+#fan 83f53f 65 65 65 65 65 65 65 65
+#pwr 83f53f 130 130 130 130 130 130 130 130
+#miner 83f53f dstm-zcash
+
+# RIG020 Ethash ###########################################################
+mxt 83f668 75
+loc 83f668 020A704G
+cor 83f668 1150 1150 1150 1150 1150 1150 1150 1150
+mem 83f668 2000 2000 2000 2000 2000 2000 2000 2000
+fan 83f668 65 65 65 65 65 65 65 65
+pwr 83f668 4 4 4 4 4 4 4 4
+vlt 83f668 800 800 800 800 800 800 800 800
+miner 83f668 claymore
+
+# RIG021 Ethash #######################################################
+mxt 83f656 75
+loc 83f656 021N708G
+cor 83f656 1000 1000 1000 1000 1000 1000 1000 1000
+mem 83f656 4500 4500 4500 4500 4500 4500 4500 4500
+fan 83f656 65 65 65 65 65 65 65 65
+pwr 83f656 120 120 120 120 120 120 120 120
+miner 83f656 claymore
+
+# RIG021 Equihash #######################################################
+#mxt 83f656 75
+#loc 83f656 021N708G
+#cor 83f656 2100 2100 2100 2100 2100 2100 2100 2100
+#mem 83f656 4500 4500 4500 4500 4500 4500 4500 4500
+#fan 83f656 65 65 65 65 65 65 65 65
+#pwr 83f656 130 130 130 130 130 130 130 130
+#miner 83f656 dstm-zcash
+
+# RIG022 Ethash #######################################################
+mxt 83f6b5 75
+loc 83f6b5 022N708G
+cor 83f6b5 1000 1000 1000 1000 1000 1000 1000 1000
+mem 83f6b5 4400 4400 4400 4400 4400 4400 4400 4400
+fan 83f6b5 65 65 65 65 65 65 65 65
+pwr 83f6b5 120 120 120 120 120 120 120 120
+miner 83f6b5 claymore
+
+# RIG022 Equihash #######################################################
+#mxt 83f6b5 75
+#loc 83f6b5 022N708G
+#cor 83f6b5 2100 2100 2100 2100 2100 2100 2100 2100
+#mem 83f6b5 4400 4400 4400 4400 4400 4400 4400 4400
+#fan 83f6b5 65 65 65 65 65 65 65 65
+#pwr 83f6b5 130 130 130 130 130 130 130 130
+#miner 83f6b5 dstm-zcash
+
+# RIG023 Ethash ##### THE BEST OVERCLOCK #################################
+mxt 83f6da 75
+loc 83f6da 023N708G
+cor 83f6da -200 -200 -200 -200 -200 -200 -200 -200
+mem 83f6da +600 +600 +600 +600 +600 +600 +600 +600
+fan 83f6da 65 65 65 65 65 65 65 65
+pwr 83f6da 120 120 120 120 120 120 120 120
+miner 83f6da claymore
+
+# RIG023 Equihash ##########################################################
+#mxt 83f6da 75
+#loc 83f6da 023N708G
+#cor 83f6da 2100 2100 2100 2100 2100 2100 2100 2100
+#mem 83f6da 4550 4500 4500 4550 4500 4600 4550 4500
+#fan 83f6da 65 65 65 65 65 65 65 65
+#pwr 83f6da 130 130 130 130 130 130 130 130
+#miner 83f6da dstm-zcash
+
+# RIG024 Ethash ###########################################################
+mxt 83f681 75
+loc 83f681 024A704G
+cor 83f681 1200 1200 1200 1200 1200 1200 1200 1200
+mem 83f681 2100 2100 2100 2100 2100 2100 2100 2100
+fan 83f681 65 65 65 65 65 65 65 65
+pwr 83f681 4 4 4 4 4 4 4 4
+vlt 83f681 800 800 800 800 800 800 800 800
+miner 83f681 claymore
+
+# RIG025 Ethash ###########################################################
+mxt 4b7f6e 75
+loc 4b7f6e 025N708G
+cor 4b7f6e -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200
+mem 4b7f6e +750 +750 +750 +750 +750 +750 +750 +750 +750 +750 +750 +750 +750
+fan 4b7f6e 65 65 65 65 65 65 65 65 65 65 65 65 65
+pwr 4b7f6e 120 120 120 120 120 120 120 120 120 120 120 120 120
+miner 4b7f6e claymore
+
+# RIG025 Equihash ###########################################################
+#mxt 4b7f6e 75
+#loc 4b7f6e 025N708G
+#cor 4b7f6e 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060
+#mem 4b7f6e 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400
+#fan 4b7f6e 65 65 65 65 65 65 65 65 65 65 65 65 65
+#pwr 4b7f6e 130 130 130 130 130 130 130 130 130 130 130 130 130
+#miner 4b7f6e dstm-zcash
+
+
+# RIG026 Equihash #########################################################
+mxt 4b5871 75
+loc 4b5871 026N603G
+cor 4b5871 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050
+mem 4b5871 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200
+fan 4b5871 100 100 100 100 100 100 100 100 100 100 100 100 100
+pwr 4b5871 110 110 110 110 110 110 110 110 110 110 110 110 110
+miner 4b5871 dstm-zcash
+
+# RIG027 Ethash ###########################################################
+mxt c8c3e6 75
+loc c8c3e6 027A804G
+cor c8c3e6 1250 1250 1250 1250 1250 1250 1250 1250
+mem c8c3e6 2150 2150 2150 2100 2150 2150 2150 2150
+fan c8c3e6 65 65 65 65 65 65 65 65
+pwr c8c3e6 4 4 4 4 4 4 4 4
+vlt c8c3e6 800 800 800 800 800 800 800 800
+miner c8c3e6 claymore
+
+# RIG028 Ethash ###########################################################
+mxt 496094 75
+loc 496094 028N708G
+cor 496094 1000 1000 1000 1000 1000 1000 1920 1000 1920 1000 1000 1000 1000
+mem 496094 4550 4450 4450 4450 4450 4550 3800 4550 3800 4500 4550 4450 4450
+fan 496094 65 65 65 65 65 65 65 65 65 65 65 65 65
+pwr 496094 120 120 120 120 120 120 110 120 110 120 120 120 120
+miner 496094 claymore
+
+# RIG028 Equihash ###########################################################
+#mxt 496094 75
+#loc 496094 028N708G
+#cor 496094 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060
+#mem 496094 4400 4400 4300 4300 4300 4300 3800 4300 3800 4300 4300 4300 4300
+#fan 496094 65 65 65 65 65 65 65 65 65 65 65 65 65
+#pwr 496094 130 130 130 130 130 130 130 130 130 130 130 130 130
+#miner 496094 ewbf-zcash
+
+
+# RIG029 Equihash #########################################################
+mxt 49785d 75
+loc 49785d 029N603G
+cor 49785d 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050
+mem 49785d 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200
+fan 49785d 100 100 100 100 100 100 100 100 100 100 100 100 100
+pwr 49785d 110 110 110 110 110 110 110 110 110 110 110 110 110
+miner 49785d dstm-zcash
+
+
+# RIG030 Ethash ############################################################
+mxt 494ea3 75
+loc 494ea3 030N708G
+cor 494ea3 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000
+mem 494ea3 4500 4500 4500 4500 4500 4500 4500 4500 4500 4500 4500 4500 4400
+fan 494ea3 65 65 65 65 65 65 65 65 65 65 65 65 65
+pwr 494ea3 120 120 120 120 120 120 120 120 120 120 120 120 120
+miner 494ea3 claymore
+
+# RIG030 Equihash ##########################################################
+#mxt 494ea3 75
+#loc 494ea3 030N708G
+#cor 494ea3 2100 2100 2100 2100 2100 2100 2100 2100 2100 2100 2100 2100 2100
+#mem 494ea3 4400 4400 4300 4400 4300 4400 4400 4400 4300 4400 4300 4300 4400
+#fan 494ea3 65 65 65 65 65 65 65 65 65 65 65 65 65
+#pwr 494ea3 150 150 150 150 150 150 150 150 150 150 150 150 150
+#miner 494ea3 ewbf-zcash
+
+
+# RIG031 Ethash ##### THE BEST OVERCLOCK ###################################
+mxt 495b47 75
+loc 495b47 031N708G
+cor 495b47 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200
+mem 495b47 +800 +800 +800 +800 +800 +550 +800 +800 +800 +800 +800 +800 +800
+fan 495b47 65 65 65 65 65 65 65 65 65 65 65 65 65
+pwr 495b47 120 120 120 120 120 120 120 120 120 120 120 120 120
+miner 495b47 claymore
+
+# RIG031 Equihash ##########################################################
+#mxt 495b47 75
+#loc 495b47 031N708G
+#cor 495b47 2100 2100 2100 2100 2100 2100 2100 2100 2100 2100 2100 2100 2100
+#mem 495b47 4500 4500 4500 4500 4500 4250 4500 4500 4500 4500 4500 4500 4500
+#fan 495b47 65 65 65 65 65 65 65 65 65 65 65 65 65
+#pwr 495b47 150 ewbf-zcash150 150 150 150 150 150 150 150 150 150 150 150
+#miner 495b47 ewbf-zcash
+
+# RIG032 Ethash ###########################################################
+mxt 497883 75
+loc 497883 032N708G
+cor 497883 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000
+mem 497883 4400 4400 4300 4400 4400 4400 4400 4400 4400 4400 4400 4400 4400
+fan 497883 65 65 65 65 65 65 65 65 65 65 65 65 65
+pwr 497883 120 120 120 120 120 120 120 120 120 120 120 120 120
+miner 497883 claymore
+
+
+# RIG032 Equihash ###########################################################
+#mxt 497883 75
+#loc 497883 032N708G
+#cor 497883 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060 2060
+#mem 497883 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300 4300
+#fan 497883 65 65 65 65 65 65 65 65 65 65 65 65 65
+#pwr 497883 130 130 130 130 130 130 130 130 130 130 130 130 130
+#miner 497883 ewbf-zcash
+
+
+# RIG033 Ethash ##########################################################
+mxt 4b7a0d 75
+loc 4b7a0d 033A704G
+cor 4b7a0d 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200
+mem 4b7a0d 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050
+fan 4b7a0d 65 65 65 65 65 65 65 65 65 65 65 65 65
+pwr 4b7a0d 4 4 4 4 4 4 4 4 4 4 4 4 4
+vlt 4b7a0d 800 800 800 800 800 800 800 800 800 800 800 800 800
+miner 4b7a0d claymore
+
+
+# RIG034 Ethash ###########################################################
+mxt 4b587b 75
+loc 4b587b 034A704G
+cor 4b587b 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200
+mem 4b587b 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050
+fan 4b587b 75 75 75 75 75 75 75 75 75 75 75 75 75
+pwr 4b587b 4 4 4 4 4 4 4 4 4 4 4 4 4
+vlt 4b587b 800 800 800 800 800 800 800 800 800 800 800 800 800
+miner 4b587b claymore
+
+
+# RIG035 Equihash #########################################################
+mxt 4977ef 75
+loc 4977ef 035N606G
+cor 4977ef 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050
+mem 4977ef 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100
+fan 4977ef 65 65 65 65 65 65 65 65 65 65 65 65 65
+pwr 4977ef 110 110 110 110 110 110 110 110 110 110 110 110 110
+miner 4977ef dstm-zcash
+
+
+# RIG036 Equihash #########################################################
+mxt 497893 75
+loc 497893 036N603G
+cor 497893 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050
+mem 497893 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100
+fan 497893 75 75 75 75 75 75 75 75 75 75 75 75 75
+pwr 497893 110 110 110 110 110 110 110 110 110 110 110 110 110
+miner 497893 dstm-zcash
+
+
+# RIG037 Equihash #########################################################
+mxt 4b79ff 75
+loc 4b79ff 037N603G
+cor 4b79ff 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050
+mem 4b79ff 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200
+fan 4b79ff 90 90 90 90 90 90 90 90 90 90 90 90 90
+pwr 4b79ff 110 110 110 110 110 110 110 110 110 110 110 110 110
+miner 4b79ff dstm-zcash
+
+
+# RIG038 Equihash #########################################################
+mxt 49785b 75
+loc 49785b 038N606G
+cor 49785b 2000 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050
+mem 49785b 4100 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200
+fan 49785b 90 90 90 90 90 90 90 90 90 90 90 90 90
+pwr 49785b 110 110 110 110 110 110 110 110 110 110 110 110 110
+miner 49785b dstm-zcash
+
+
+# RIG039 Equihash #########################################################
+mxt 4975e9 75
+loc 4975e9 039N606G
+cor 4975e9 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050
+mem 4975e9 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200 4200
+fan 4975e9 90 90 90 90 90 90 90 90 90 90 90 90 90
+pwr 4975e9 110 110 110 110 110 110 110 110 110 110 110 110 110
+miner 4975e9 dstm-zcash
+
+
+# RIG040 Ethash ###########################################################
+mxt 4b7a09 75
+loc 4b7a09 040A804G
+cor 4b7a09 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150
+mem 4b7a09 2050 2050 2050 2050 2050 2050 2050 1950 2050 2050 1900 2050 2050
+fan 4b7a09 65 65 65 65 65 65 65 65 65 65 65 65 65
+pwr 4b7a09 4 4 4 4 4 4 4 4 4 4 4 4 4
+vlt 4b7a09 800 800 800 800 800 800 800 800 800 800 800 800 800
+miner 4b7a09 claymore
+
+
+# RIG041 Equihash #########################################################
+mxt 494ea1 75
+loc 494ea1 041N606G
+cor 494ea1 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050 2050
+mem 494ea1 4300 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100 4100
+fan 494ea1 90 90 90 90 90 90 90 90 90 90 90 90 90
+pwr 494ea1 130 110 110 110 110 110 110 110 110 110 110 110 110
+miner 494ea1 dstm-zcash
+
+# RIG042 Ethash ###########################################################
+mxt 497610 85
+loc 497610 042A604G
+cor 497610 1150 1150 1100 1100 1100 1100 1100 1100 1100 1100 1100 1100 1100
+mem 497610 2000 2000 1900 1900 1900 1900 1900 1900 1900 1900 1900 1900 1900
+fan 497610 75 75 75 75 75 75 75 75 75 75 75 75 75
+pwr 497610 4 4 4 4 4 4 4 4 4 4 4 4 4
+vlt 497610 800 800 800 800 800 800 800 800 800 800 800 800 800
+miner 497610 claymore
+
+
+# RIG043 Ethash ###########################################################
+mxt 47ba48 85
+loc 47ba48 043A804G
+cor 47ba48 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200 1200
+mem 47ba48 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000
+fan 47ba48 80 80 80 80 80 80 80 80 80 80 80 80 80
+pwr 47ba48 4 4 4 4 4 4 4 4 4 4 4 4 4
+vlt 47ba48 800 800 800 800 800 800 800 800 800 800 800 800 800
+miner 47ba48 claymore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ethOS Pool: ethosdistro.com/pool
+# QUICK START GUIDE: ethosdistro.com/Q
+# HOSTING YOUR OWN REMOTE CONFIG WITH CONFIGMAKER.COM: ethosdistro.com/kb/#configmaker
+#
+# Read the ethOS knowledge base, a useful guide to getting set up: ethosdistro.com/kb
+# Read the ethOS changelog for version information and latest changes: ethosdistro.com/changelog
+# Read the ethOS source for verification of source: http://ethosdistro.com/source
+#
+# There is no email or phone support for ethOS: http://ethosdistro.com/S
+
+# NOTE: Everything with a hashtag/poundsign is a comment, and is ignored by all scripts.
+# WARNING: Using apt-get to upgrade, update, and/or install packages is unsupported and will likely break ethOS.
+#
+# GLOBAL CONFIG SETTINGS THAT APPLY TO ALL RIGS
+# SAMPLE FORMAT: 
+# [type] [value]
+# ------------------------------------------------------
+# globalminer ethminer
+# maxgputemp 85
+# stratumproxy enabled
+# proxywallet 0x0bdC4F12fB57d3acA9C3cF72B7AA2789A20d27f2
+# proxypool1 us1.ethermine.org:4444
+# proxypool2 us2.ethermine.org:4444
+# poolpass1 x
+# poolpass2 x
+# poolemail name@example.com 
+# flags --cl-global-work 8192 --farm-recheck 200
+# globalcore 1000
+# globalmem 1250
+# globalfan 90
+# globalpowertune 20
+# autoreboot false
+# custompanel publicsecret
+# lockscreen enabled
+# globaldesktop disabled
+# ------------------------------------------------------
+#
+# EXPLANATION OF SETTINGS THAT APPLY TO ALL RIGS
+# If using "pool" parameter, write WORKER (a placeholder variable) in place of rig name (i.e. NOT rig1, myrig, home, warehouse2, etc).
+#
+# globalminer:		set global miner (ethminer sgminer-gm claymore claymore-zcash optiminer-zcash sgminer-gm-xmr cgminer-skein ewbf-zcash dstm-zcash ccminer)  
+# 			NOTE: ewbf-zcash, dstm-zcash and ccminer (xmr, and others) is for nvidia; for ccminer flags, see http://ethosdistro.com/ccminer.txt )
+# maxgputemp:           the temperature in C that your GPUs will trigger the miner to turn off
+# stratumproxy:         enabled/disabled/miner/nicehash (enabled by default; disabled: pool option, nicehash: nicehash support, miner: internal miner proxy)
+# proxywallet:          the address to which this rig's proxy will mine (only used if stratumproxy is not disabled)
+# proxypool1:           stratum proxy's first pool (only used if stratumproxy is not disabled)
+# proxypool2:           stratum proxy's failover pool (only used if stratumproxy is not disabled)
+# poolpass1:		password for first pool (not used for most pools)
+# poolpass2:		password for failover pool (not used for most pools)
+# poolemail:		use only with pools that accepts emails for alerts (nanopool, etc); it might cause some other pools not to work
+# flags:                set desired flags here, the defaults are known good working
+# globalcore:           set the global core clock of all GPUs
+# globalmem:            set the global mem clock of all GPUs
+# globalfan:            set the fan speed percent (0-100)
+# globalpowertune:      set the power tune setting of all GPUs (r9 290/x/390/x should use 50; RX should use 4-7 depending on overclock; for nvidia, this is watt limit)
+# autoreboot:           set to a number (autoreboot 3), allow rigs to autoreboot if they soft crash (max of 3 reboots, run clear-thermals to reset counter)
+# custompanel:          set ethosdistro.com panel ID, exactly 12 characters, first 6 is your preferred panel ID, last 6 is your private key
+# lockscreen:		lock the ethOS desktop upon boot
+# globaldesktop:	login prompt user/pass is ethos/live, set ethOS to headless mode by setting like "globaldesktop disabled" (only works for RX/AMDGPU)
+# pool:                 only used with stratumproxy disabled, use this if you have a network proxy or getwork pool (example: http://pool.com:port/WORKER )
+#
+# PER-RIG STYLE CONFIG SETTINGS THAT APPLY TO INDIVIDUAL RIGS (AND THEIR RESPECTIVE INDIVIDUAL GPUS)
+# NOTICE: c94e13 is a SAMPLE rig/[worker]/hostname, change it to the rig/[worker]/hostname of YOUR RIG
+# NOTICE: Your rig/[worker]/hostname names are assigned automatically by the OS, do not change them
+#
+# SAMPLE FORMAT: 
+# [type] [worker] [gpu0 value] [gpu1 value] [gpu2 value] [gpu3 value] [gpu4 value]
+# ------------------------------------------------------
+# cor c94e13 950 1000 1050 1025 980
+# mem c94e13 1250 1500 1500 1250 1250
+# fan c94e13 90 80 85 100 70
+# pwr c94e13 10 20 15 15 20
+# vlt c94e13 0 1118 0 0 1118
+# ------------------------------------------------------
+#
+# SAMPLE FORMAT: 
+# [type] [worker] [value]
+# ------------------------------------------------------
+# miner c94e13 ethminer
+# flg c94e13 --cl-local-work 256 --cl-global-work 8192 --farm-recheck 200
+# mxt c94e13 70
+# reb c94e13 1
+# loc c94e13 d3
+# sel c94e13 1 2 4
+# off c94e13 
+# wallet c94e13 0x0bdC4F12fB57d3acA9C3cF72B7AA2789A20d27f2
+# rigpool1 c94e13 pool-usa.ethosdistro.com:5001
+# rigpool2 c94e13 pool-eu.ethosdistro.com:5001 
+# rigpoolpass1 c94e13 x
+# rigpoolpass2 c94e13 x
+# driverless c94e13 enabled
+# desktop c94e13 disabled
+# ------------------------------------------------------
+#
+# EXPLANATION OF SETTINGS FOR INDIVIDUAL RIGS
+#
+# cor [worker]: set the core clock of individual GPUs on a single rig
+# mem [worker]: set the mem clock of individual GPUs on a single rig
+# fan [worker]: set the fan speed of individual GPUs on a single rig
+# pwr [worker]: set the powertune of individual GPUs on a single rig
+# vlt [worker]: set the voltage of individual GPUs on a single rig, in millivolts (mv) i.e. 1080mv = 1.08v
+# miner [worker]: set miner (ethminer, sgminer-gm, claymore, zcash-miner, optiminer-zcash, sgminer-gm-xmr, claymore-zcash, ewbf-zcash) ewbf-zcash is for zcash on nvidia
+# flg [worker]: set the flags of a single rig (applies to all GPUs on the rig)
+# mxt [worker]: set the maxgputemp of a single rig (applies to all GPUs on the rig)
+# reb [worker]: increment this value (example: 4 becomes 5) and the single rig will automatically reboot within 10 minutes
+# loc [worker]: set a maximum 8-letter code for rack/location information on a single rig (each rig MUST have a different code, or it will not report to panel)
+# sel [worker]: set the GPUs that should mine, default is no sel flag set, all GPUs may mine)
+# off [worker]: do not start the miner on boot (no such thing as "on", remove entire line to let miner start)
+# wallet [worker]: set the wallet for an individual rig (just the wallet, nothing else)
+# rigpool1 [worker]: set the primary pool:port for an individual rig
+# rigpool2 [worker]: set the secondary pool:port for an individual rig
+# rigpoolpass1 [worker]: set the primary pool password for an individual rig
+# rigpoolpass2 [worker]: set the seconday pool password for an individual rig
+# driverless [worker]: login prompt user/pass is ethos/live, force the rig to boot without graphics driver, for debugging purposes (this will turn off mining)
+# desktop [worker]: login prompt user/pass is ethos/live, set ethOS to headless mode by setting like "desktop [worker] disabled" (only works for RX/AMDGPU)
+#
+# PER-BIOS STYLE CONFIG SETTINGS THAT APPLY TO CLASS OF GPU, BASED ON GPU BIOS NAME
+# ONLY USEFUL IF USING REMOTE CONFIG
+# NOTICE: 113-C6711101-100 is a SAMPLE GPU bios name, change it to the GPU bios name of YOUR GPU
+# NOTICE: For a list of GPU bioses, click the "GPU bioses" link in your ethosdistro.com stats panel
+# 
+# SAMPLE FORMAT:
+# [type] [bios name] [value]
+# ------------------------------------------------------
+# cor 113-C6711101-100 1050
+# mem 113-C6711101-100 1250
+# fan 113-C6711101-100 100
+# pwr 113-C6711101-100 50
+# vlt 113-C6711101-100 1118
+# ------------------------------------------------------
+#
+# SAMPLE RX 400 SERIES CONFIG
+#
+# If you have global configs defined for fglrx rigs, you must use individual rig configs for rigs that have RX 400 series GPUS.
+#
+# KNOWN GOOD WORKING GLOBAL CONFIG FOR AMDGPU
+# NOTE: globalpowertune is DPM state range 0-7, set lower for lower power usage, set higher if overclocking.
+# ------------------------------------------------------
+# globalpowertune 5
+# ------------------------------------------------------
+#
+# SAMPLE PER-RIG CONFIG FOR AMDGPU (for a 6-gpu rig)
+# NOTE: pwr is DPM state range 0-7, set lower for lower power usage, set higher if overclocking.
+# ------------------------------------------------------
+# cor c94e13 1180 1180 1180 1180 1180 1180
+# mem c94e13 2150 2150 2150 2150 2150 2150
+# pwr c94e13 7 7 7 7 7 7
+# ------------------------------------------------------
+#
+# IN MULTI-RIG MODE, EXAMPLES OF MULTIPLE POOLS/WALLETS/PASSWORDS
+# You can define your pool information globally. Then, your per-rig miner will retrieve the parameters.
+#
+# SAMPLE FORMAT:
+# [miner]=[parameter] value
+# ------------------------------------------------------
+# claymore-zcash=proxypool1 zec-us-west1.nanopool.org:6666                                                
+# claymore-zcash=proxypool2 zec-us-east1.nanopool.org:6666
+# claymore-zcash=proxywallet t1XQgP5zCG8C3vMhCsDnwUkMnEtnJEqj5NK
+# claymore-zcash=poolpass1 x
+# claymore-zcash=poolpass2 x
+#
+# sgminer-gm=proxypool1 us1.ethermine.org:4444
+# sgminer-gm=proxypool2 us2.ethermine.org:4444
+# sgminer-gm=proxywallet 0x0bdC4F12fB57d3acA9C3cF72B7AA2789A20d27f2
+# sgminer-gm=poolpass1 x
+# sgminer-gm=poolpass2 x
+# ---------------------------------------------------------
+#
+#
+# SAMPLE XMR CONFIG (note: the wallet and payment id is long, there are no line breaks)
+# -------------------------------------------------------
+# globalminer sgminer-gm-xmr
+# sgminer-gm-xmr=proxypool1 xmr-usa.dwarfpool.com:8100 
+# sgminer-gm-xmr=proxypool2 xmr-eu.dwarfpool.com:8050 
+# sgminer-gm-xmr=proxywallet 47sghzufGhJJDQEbScMCwVBimTuq6L5JiRixD8VeGbpjCTA12noXmi4ZyBZLc99e66NtnKff34fHsGRoyZk3ES1s1V4QVcB.1025069329a4ae653c8a2bcde9302ab0eedee29d0e9ff2a144cea5951a47f81c
+# sgminer-gm-xmr=poolpass1 x
+# sgminer-gm-xmr=poolpass2 x
+# ---------------------------------------------------------
+#
+#
+# SAMPLE DUALMINER CONFIG (for claymore)
+# ---------------------------------------------------------
+# dualminer enabled
+# dualminer-coin sia
+# dualminer-pool sia-us-east1.nanopool.org:7777
+# dualminer-wallet c3bdac90de1e328364766447440d3f192f3c920a1e88d33cf05b1de50e27b894c49d11904fda
+# ---------------------------------------------------------
+#
+#
+# REMOTE REBOOT NOTES
+#
+# You are able to reboot remotely. Start with "1" (no quotes) to reboot a rig.
+# Then, if you want to reboot again, increment it to 2, then 3, then 4, etc etc (never skip any numbers).
