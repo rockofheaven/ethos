@@ -1,4 +1,4 @@
-# 25.01.2018 20:29
+# 25.01.2018 21:10
 
 ###########################################################################
 ############################ GLOBAL CONFIG ################################
@@ -46,6 +46,7 @@ dstm-zcash=flags --time
 #TARAS JAXX ZEC		t1WFAY7Rj1YHTovBe1M7MwSDDzgUjiRPtVW
 #TIMUR JAXX ETH 	0x03bbbbf29544113b0ec13dcf6b90b142e6c2b593
 #MARINA JAXX ETH 	0xe45067a3a884dcfdb5d3dd0217ebbc42ec349bc3
+#MARINA JAXX ZEC  t1dmpy8nu81atKi9Ln4r5FcCAybPdVBB21j
 
 
 
@@ -72,7 +73,7 @@ loc 68d053 RIG06
 wallet 68d053 0x32fff4f1743832cb9ce432da1d1a3b35fcf6232c
 
 loc 68ba31 RIG07
-wallet 68ba31 t1WFAY7Rj1YHTovBe1M7MwSDDzgUjiRPtVW
+wallet 68ba31 t1dmpy8nu81atKi9Ln4r5FcCAybPdVBB21j
 
 
 ###########################################################################
