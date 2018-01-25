@@ -1,4 +1,4 @@
-# 25.01.2018 19:31
+# 25.01.2018 19:35
 
 ###########################################################################
 ############################ GLOBAL CONFIG ################################
@@ -6,7 +6,7 @@
 maxgputemp 70
 globalfan 75
 stratumproxy enabled
-autoreboot 24
+autoreboot false
 custompanel mtv001230405
 poolemail matushkin_mtv@mail.ru
 
