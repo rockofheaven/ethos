@@ -1,4 +1,4 @@
-# 25.01.2018 11:52
+# 25.01.2018 13:25
 
 ###########################################################################
 ############################ GLOBAL CONFIG ################################
@@ -24,11 +24,19 @@ claymore=poolpass2 x
 claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65
 
 ############### DSTM ZEC NANOPOOL BITTREX WALLET ##########################
-dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
-dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
-dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
-dstm-zcash=poolpass1 z
-dstm-zcash=poolpass2 z
+#dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
+#dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
+#dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
+#dstm-zcash=poolpass1 z
+#dstm-zcash=poolpass2 z
+#dstm-zcash=flags --time
+
+############### DSTM ZCL MININGPOOLHUB BITTREX WALLET #####################
+dstm-zcash=proxypool1 europe.equihash-hub.miningpoolhub.com:20575
+dstm-zcash=proxypool2 europe.zclassic.miningpoolhub.com:20575
+dstm-zcash=proxywallet eduardkolberg
+dstm-zcash=poolpass1 x
+dstm-zcash=poolpass2 x
 dstm-zcash=flags --time
 
 
