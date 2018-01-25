@@ -1,4 +1,4 @@
-# 25.01.2018 18:15
+# 25.01.2018 18:40
 
 ###########################################################################
 ############################ GLOBAL CONFIG ################################
@@ -24,8 +24,8 @@ claymore=poolpass2 x
 claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65
 
 ############### DSTM ZEC NANOPOOL #########################################
-dstm-zcash=proxypool1 europe.equihash-hub.miningpoolhub.com:20575
-dstm-zcash=proxypool2 europe.zclassic.miningpoolhub.com:20575
+dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
+dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
 dstm-zcash=poolpass1 x
 dstm-zcash=poolpass2 x
 dstm-zcash=flags --time
