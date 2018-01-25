@@ -19,7 +19,6 @@ poolemail matushkin_mtv@mail.ru
 ############### CLAYMORE ETH NANOPOOL #####################################
 claymore=proxypool1 eth-eu1.nanopool.org:9999                                              
 claymore=proxypool2 eth-eu2.nanopool.org:9999 
-claymore=proxywallet 0x13b528c9c5912d7c0d9a86b62471c0548562aab9
 claymore=poolpass1 x
 claymore=poolpass2 x
 claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65
