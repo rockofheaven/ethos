@@ -1,4 +1,4 @@
-# 12.02.2018 16:05
+# 12.02.2018 17:15
 
 ###########################################################################
 ############################ GLOBAL CONFIG ################################
@@ -22,6 +22,15 @@ claymore=proxywallet 0x13b528c9c5912d7c0d9a86b62471c0548562aab9
 claymore=poolpass1 x
 claymore=poolpass2 x
 claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65
+
+############### CLAYMORE DUAL XVG UNIMINING BITTREX WALLET ################
+dualminer enabled
+dualminer-coin blake2s
+dualminer-pool pool.unimining.net:5770
+#dualminer-pool s.antminepool.com:9008
+#dualminer-pool blake2s.mine.zpool.ca:5766
+dualminer-wallet DDvSUUDriavbyZB7RqSbkMEvJSTHjpjoSi
+dualminer-poolpass c=XVGB
 
 ############### DSTM ZEC NANOPOOL BITTREX WALLET ##########################
 dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
