@@ -26,7 +26,7 @@ claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65
 dualminer enabled
 dualminer-coin blake2s
 dualminer-pool xvg.eu1.unimining.net:5770
-dualminer-wallet DDvSUUDriavbyZB7RqSbkMEvJSTHjpjoSi
+dualminer-wallet DCURXxGuEFStEwonbSjVQWrS454zG8i7TG
 dualminer-poolpass c=XVGB
 
 
