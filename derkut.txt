@@ -1,4 +1,4 @@
-# 13.02.2018 16:45
+# 13.02.2018 16:55
 
 ###########################################################################
 ############################ GLOBAL CONFIG ################################
@@ -29,25 +29,26 @@ dualminer-coin blake2s
 #dualminer-pool xvg.eu1.unimining.net:5770
 #dualminer-pool pool.unimining.net:5770
 #dualminer-pool s.antminepool.com:9008
-dualminer-pool blake2s.mine.zpool.ca:5766
+dualminer-pool blake2s.n-engine.com:5766
+#dualminer-pool blake2s.mine.zpool.ca:5766
 dualminer-wallet DDvSUUDriavbyZB7RqSbkMEvJSTHjpjoSi
 dualminer-poolpass c=XVGB
 
 ############### DSTM ZEC NANOPOOL BITTREX WALLET ##########################
-dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
-dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
-dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
-dstm-zcash=poolpass1 z
-dstm-zcash=poolpass2 z
-dstm-zcash=flags --time
+#dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
+#dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
+#dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
+#dstm-zcash=poolpass1 z
+#dstm-zcash=poolpass2 z
+#dstm-zcash=flags --time
 
 ############### DSTM ZCL MININGPOOLHUB BITTREX WALLET #####################
-#dstm-zcash=proxypool1 europe.equihash-hub.miningpoolhub.com:20575
-#dstm-zcash=proxypool2 europe.zclassic.miningpoolhub.com:20575
-#dstm-zcash=proxywallet eduardkolberg
-#dstm-zcash=poolpass1 x
-#dstm-zcash=poolpass2 x
-#dstm-zcash=flags --time
+dstm-zcash=proxypool1 europe.equihash-hub.miningpoolhub.com:20575
+dstm-zcash=proxypool2 europe.zclassic.miningpoolhub.com:20575
+dstm-zcash=proxywallet eduardkolberg
+dstm-zcash=poolpass1 x
+dstm-zcash=poolpass2 x
+dstm-zcash=flags --time
 
 
 
