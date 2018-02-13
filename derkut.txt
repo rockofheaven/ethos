@@ -1,4 +1,4 @@
-# 13.02.2018 16:38
+# 13.02.2018 16:45
 
 ###########################################################################
 ############################ GLOBAL CONFIG ################################
@@ -28,8 +28,8 @@ dualminer enabled
 dualminer-coin blake2s
 #dualminer-pool xvg.eu1.unimining.net:5770
 #dualminer-pool pool.unimining.net:5770
-dualminer-pool s.antminepool.com:9008
-#dualminer-pool blake2s.mine.zpool.ca:5766
+#dualminer-pool s.antminepool.com:9008
+dualminer-pool blake2s.mine.zpool.ca:5766
 dualminer-wallet DDvSUUDriavbyZB7RqSbkMEvJSTHjpjoSi
 dualminer-poolpass c=XVGB
 
