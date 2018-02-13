@@ -1,4 +1,4 @@
-# 25.01.2018 21:10
+# 13.02.2018 22:47
 
 ###########################################################################
 ############################ GLOBAL CONFIG ################################
@@ -22,6 +22,13 @@ claymore=proxypool2 eth-eu2.nanopool.org:9999
 claymore=poolpass1 x
 claymore=poolpass2 x
 claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65
+
+dualminer enabled
+dualminer-coin blake2s
+dualminer-pool xvg.eu1.unimining.net:5770
+dualminer-wallet DDvSUUDriavbyZB7RqSbkMEvJSTHjpjoSi
+dualminer-poolpass c=XVGB
+
 
 ############### DSTM ZEC NANOPOOL #########################################
 dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
