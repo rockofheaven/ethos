@@ -1,4 +1,4 @@
-# 02.03.2018 13:49
+# 02.03.2018 14:30
 
 ###########################################################################
 ############################ GLOBAL CONFIG ################################
@@ -26,7 +26,7 @@ claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65 -dcri 50
 ############### CLAYMORE DUAL XVG UNIMINING BITTREX WALLET ################
 dualminer enabled
 dualminer-coin blake2s
-dualminer-pool xvg.eu1.unimining.net:5770
+dualminer-pool xvg.antminepool.com:9008
 dualminer-wallet DDvSUUDriavbyZB7RqSbkMEvJSTHjpjoSi
 dualminer-poolpass c=XVGB
 
