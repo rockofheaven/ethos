@@ -1,4 +1,4 @@
-# 02.03.2018 11:55
+# 02.03.2018 13:12
 
 ###########################################################################
 ############################ GLOBAL CONFIG ################################
@@ -21,7 +21,7 @@ claymore=proxypool2 eth-eu2.nanopool.org:9999
 claymore=proxywallet 0x13b528c9c5912d7c0d9a86b62471c0548562aab9
 claymore=poolpass1 x
 claymore=poolpass2 x
-claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65
+claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65 -dcri 50
 
 ############### CLAYMORE DUAL XVG UNIMINING BITTREX WALLET ################
 dualminer enabled
@@ -31,20 +31,20 @@ dualminer-wallet DDvSUUDriavbyZB7RqSbkMEvJSTHjpjoSi
 dualminer-poolpass c=XVGB
 
 ############### DSTM ZEC NANOPOOL BITTREX WALLET ##########################
-#dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
-#dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
-#dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
-#dstm-zcash=poolpass1 z
-#dstm-zcash=poolpass2 z
-#dstm-zcash=flags --time
+dstm-zcash=proxypool1 zec-eu1.nanopool.org:6666
+dstm-zcash=proxypool2 zec-eu2.nanopool.org:6666
+dstm-zcash=proxywallet t1atnnU55ykec91A3Qx78VZtYirFZsAveQZ
+dstm-zcash=poolpass1 z
+dstm-zcash=poolpass2 z
+dstm-zcash=flags --time
 
 ############### DSTM ZCL MININGPOOLHUB BITTREX WALLET #####################
-dstm-zcash=proxypool1 europe.equihash-hub.miningpoolhub.com:20575
-dstm-zcash=proxypool2 europe.zclassic.miningpoolhub.com:20575
-dstm-zcash=proxywallet eduardkolberg
-dstm-zcash=poolpass1 x
-dstm-zcash=poolpass2 x
-dstm-zcash=flags --time
+#dstm-zcash=proxypool1 europe.equihash-hub.miningpoolhub.com:20575
+#dstm-zcash=proxypool2 europe.zclassic.miningpoolhub.com:20575
+#dstm-zcash=proxywallet eduardkolberg
+#dstm-zcash=poolpass1 x
+#dstm-zcash=poolpass2 x
+#dstm-zcash=flags --time
 
 
 
