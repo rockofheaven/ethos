@@ -1,4 +1,4 @@
-# 02.03.2018 14:45
+# 02.03.2018 18:15
 
 ###########################################################################
 ############################ GLOBAL CONFIG ################################
@@ -21,7 +21,7 @@ claymore=proxypool2 eth-eu2.nanopool.org:9999
 claymore=proxywallet 0x13b528c9c5912d7c0d9a86b62471c0548562aab9
 claymore=poolpass1 x
 claymore=poolpass2 x
-claymore=flags -colors 1 -gser 2 -wd 1 -tt 65 -fanmin 65 -dcri 50
+claymore=flags -colors 1 -gser 2 -wd 1 -dcri 50
 
 ############### CLAYMORE DUAL XVG UNIMINING BITTREX WALLET ################
 dualminer enabled
