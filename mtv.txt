@@ -73,7 +73,7 @@ loc 68d053 RIG06
 wallet 68d053 0x32fff4f1743832cb9ce432da1d1a3b35fcf6232c
 
 loc 68ba31 RIG07
-wallet 68ba31 t1TyDFo9dT6ouLQjgSSCZb9MKoJqxtzEkgr
+wallet 68ba31 0xe45067a3a884dcfdb5d3dd0217ebbc42ec349bc3
 
 loc 6a00a3 RIG08
 wallet 6a00a3 0x32fff4f1743832cb9ce432da1d1a3b35fcf6232c
@@ -134,11 +134,11 @@ mem 68d053 +700 +700 +700 +700 +700 +700 +700 +700
 pwr 68d053 120 120 120 120 120 120 120 120
 miner 68d053 claymore
 
-# RIG07 Equihash ##########################################################
+# RIG07 Ethash ##########################################################
 cor 68ba31 +100 +100 +100 +100 +100 +100 +100 +100
 mem 68ba31 +700 +700 +700 +700 +700 +700 +700 +700
 pwr 68ba31 210 210 210 210 210 210 210 210
-miner 68ba31 dstm-zcash
+miner 68ba31 claymore
 
 # RIG08 Ethash #############################################################
 cor 6a00a3 1200 1200 1200 1200 1200 1200 1200 1200
